@@ -25,16 +25,11 @@ func birthday(n uint32) (uint32, error) {
 	return 0, errors.New("error while calling func birthday")
 }
 
-func Birthday_int() (uint32, error) {
+func birthday_int() (uint32, error) {
 	return birthday(uint32_max)
 }
 
-func main() {
-	total_try, err := Birthday_int()
-	if err != nil {
-		fmt.Println(err)
-		return
-	}
+func try_experiment(total_try uint32) (int, uint32) {
 	counter := 0
 	r := rand.New(rand.NewSource(time.Now().Unix()))
 	var try uint32 = 5000
@@ -57,5 +52,22 @@ func main() {
 		}
 		m = make(map[uint32]bool)
 	}
+	return counter, try
+}
+
+func main() {
+	total_try, err := birthday_int()
+	if err != nil {
+		fmt.Println(err)
+		return
+	}
+
+	counter, try := try_experiment(total_try)
+
 	fmt.Println("hit ", counter, " times of ", try, " experiment")
+
+	fmt.Println("  try		  hit")
+	fmt.Println("-----------------------")
+	fmt.Println(" ", try, "        ", counter)
+
 }
