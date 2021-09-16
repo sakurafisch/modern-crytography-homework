@@ -18,7 +18,7 @@ func birthday(n uint32) (uint32, error) {
 		if tmp <= 0.5 {
 			// fmt.Println(tmp)
 			// fmt.Println(i)
-			fmt.Println("we need to try ", i, " times for a successful rate of ", tmp)
+			fmt.Println("we need to try", i, "times for a successful rate of", tmp)
 			return i, nil
 		}
 	}
@@ -29,16 +29,15 @@ func birthday_int() (uint32, error) {
 	return birthday(uint32_max)
 }
 
-func try_experiment(total_try uint32) (int, uint32) {
+func try_experiment(try uint32, numbers_per_experiement uint32) int {
 	counter := 0
 	r := rand.New(rand.NewSource(time.Now().Unix()))
-	var try uint32 = 5000
 	var itr uint32 = 0
 	for ; itr < try; itr++ {
 		m := make(map[uint32]bool)
 		sign := false
 		var i uint32 = 0
-		for ; i < total_try; i++ {
+		for ; i < numbers_per_experiement; i++ {
 			tmp := r.Uint32()
 			if m[tmp] == true {
 				sign = true
@@ -52,22 +51,33 @@ func try_experiment(total_try uint32) (int, uint32) {
 		}
 		m = make(map[uint32]bool)
 	}
-	return counter, try
+	return counter
 }
 
 func main() {
-	total_try, err := birthday_int()
+	var arr []int
+	var try uint32 = 5000
+	numbers_per_experiement, err := birthday_int()
 	if err != nil {
 		fmt.Println(err)
 		return
 	}
 
-	counter, try := try_experiment(total_try)
+	for i := 0; i < 30; i++ {
+		counter := try_experiment(try, numbers_per_experiement)
 
-	fmt.Println("hit ", counter, " times of ", try, " experiment")
+		fmt.Println("hit", counter, "times of", try, "experiments")
+		arr = append(arr, counter)
+	}
+	fmt.Println("  index		  try		  hit")
+	fmt.Println("----------------------------------------------")
 
-	fmt.Println("  try		  hit")
-	fmt.Println("-----------------------")
-	fmt.Println(" ", try, "        ", counter)
+	for index, counter := range arr {
+		if index+1 < 10 {
+			fmt.Println("  ", index+1, "            ", try, "            ", counter)
+		} else {
+			fmt.Println(" ", index+1, "            ", try, "            ", counter)
+		}
+	}
 
 }
