@@ -7,12 +7,12 @@ import (
 	"time"
 )
 
-func birthday(n uint32) (uint32, error) {
+func birthday(n uint32, posibility float64) (uint32, error) {
 	var k uint32 = n
 	var tmp float64 = 1.0
 	for i := uint32(0); i < k; i++ {
 		tmp = tmp * float64(n-i) / float64(n)
-		if tmp <= 0.5 {
+		if tmp <= posibility {
 			fmt.Println("We need to try", i, "times for a successful rate of", tmp)
 			return i, nil
 		}
@@ -20,9 +20,9 @@ func birthday(n uint32) (uint32, error) {
 	return 0, errors.New("error while calling func birthday")
 }
 
-func birthday_uint32_max() (uint32, error) {
+func birthday_uint32_max(posibility float64) (uint32, error) {
 	var uint32_max uint32 = ^uint32(0)
-	return birthday(uint32_max)
+	return birthday(uint32_max, posibility)
 }
 
 func try_experiment(try uint32, numbers_per_experiement uint32) int {
@@ -51,46 +51,53 @@ func try_experiment(try uint32, numbers_per_experiement uint32) int {
 func main() {
 	var arr []int
 	var try uint32 = 5000
-	numbers_per_experiement, err := birthday_uint32_max()
-	if err != nil {
-		fmt.Println(err)
-		return
-	}
-
-	for i := 0; i < 30; i++ {
-		counter := try_experiment(try, numbers_per_experiement)
-
-		fmt.Println("hit", counter, "times of", try, "experiments")
-		arr = append(arr, counter)
-	}
-	fmt.Println("----------------------------------------------")
-
-	fmt.Println("  index            try            hit")
-	fmt.Println("----------------------------------------------")
-	sum := 0
-	for index, counter := range arr {
-		sum += counter
-		if index+1 < 10 {
-			fmt.Println("  ", index+1, "            ", try, "              ", counter)
-		} else {
-			fmt.Println(" ", index+1, "            ", try, "            ", counter)
+	var possibilities []float64
+	possibilities = append(possibilities, float64(0.25))
+	possibilities = append(possibilities, float64(0.50))
+	possibilities = append(possibilities, float64(0.75))
+	for _, v := range possibilities {
+		numbers_per_experiement, err := birthday_uint32_max(v)
+		if err != nil {
+			fmt.Println(err)
+			return
 		}
+
+		for i := 0; i < 30; i++ {
+			counter := try_experiment(try, numbers_per_experiement)
+
+			fmt.Println("hit", counter, "times of", try, "experiments")
+			arr = append(arr, counter)
+		}
+		fmt.Println("----------------------------------------------")
+
+		fmt.Println("  index            try            hit")
+		fmt.Println("----------------------------------------------")
+		sum := 0
+		for index, counter := range arr {
+			sum += counter
+			if index+1 < 10 {
+				fmt.Println("  ", index+1, "            ", try, "              ", counter)
+			} else {
+				fmt.Println(" ", index+1, "            ", try, "            ", counter)
+			}
+		}
+		fmt.Println("----------------------------------------------")
+
+		// 计算平均值
+		average := float64(sum) / float64(len(arr))
+		fmt.Println("Average hint:", average)
+
+		// 计算平均概率
+		posibility := average / (float64(try))
+		fmt.Println("Average posibility:", posibility)
+
+		// 计算方差
+		variance := float64(0)
+		for _, value := range arr {
+			variance += (float64(value) - average) * (float64(value) - average)
+		}
+		variance /= float64(len(arr))
+		fmt.Println("Variance:", variance)
+		fmt.Println("----------------------------------------------")
 	}
-	fmt.Println("----------------------------------------------")
-
-	// 计算平均值
-	average := float64(sum) / float64(len(arr))
-	fmt.Println("Average hint:", average)
-
-	// 计算平均概率
-	posibility := average / (float64(try))
-	fmt.Println("Average posibility:", posibility)
-
-	// 计算方差
-	variance := float64(0)
-	for _, value := range arr {
-		variance += (float64(value) - average) * (float64(value) - average)
-	}
-	variance /= float64(len(arr))
-	fmt.Println("Variance:", variance)
 }
