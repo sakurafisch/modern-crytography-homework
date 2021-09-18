@@ -12,12 +12,13 @@ import (
 )
 
 func birthday(n uint32, posibility float64) (uint32, error) {
-	var k uint32 = n
-	var tmp float64 = 1.0
-	for i := uint32(0); i < k; i++ {
-		tmp = tmp * float64(n-i) / float64(n)
-		if tmp <= posibility {
-			fmt.Println("We need to generate", i, "numbers per experiment for a successful rate of", (float64(1.0) - tmp))
+	var m uint32 = n
+	var poss float64 = 1.0
+	posibility = float64(1.0) - posibility
+	for i := uint32(0); i < m; i++ {
+		poss = poss * float64(n-i) / float64(n)
+		if poss <= posibility {
+			fmt.Println("We need to generate", i, "numbers per experiment for a successful rate of", (float64(1.0) - poss))
 			return i, nil
 		}
 	}
@@ -58,7 +59,7 @@ func main() {
 	var arr []int
 	var try uint32 = 1000
 	var possibilities []float64
-	for i := float64(0.99); i > 0; i -= float64(0.01) {
+	for i := float64(0.01); i < float64(1.0); i += float64(0.01) {
 		possibilities = append(possibilities, i)
 	}
 	var generated_numbers_of_experiments []uint32
@@ -125,8 +126,8 @@ func main() {
 	}
 
 	var theoretical_possibilities_for_draw []opts.LineData
-	for i := len(possibilities) - 1; i > 0; i-- {
-		theoretical_possibilities_for_draw = append(theoretical_possibilities_for_draw, opts.LineData{Value: possibilities[i]})
+	for _, v := range possibilities {
+		theoretical_possibilities_for_draw = append(theoretical_possibilities_for_draw, opts.LineData{Value: v})
 	}
 
 	var actual_possibilities_for_draw []opts.LineData
@@ -156,5 +157,4 @@ func main() {
 	line_actual.AddSeries("Actual hint", generated_numbers_of_experiments_for_draw)
 	line_actual.SetSeriesOptions(charts.WithLineChartOpts(opts.LineChart{Smooth: true}))
 	line_actual.Render(f)
-
 }

@@ -1,1752 +1,1881 @@
 We need to generate 9291 numbers per experiment for a successful rate of 0.010000035343635472
+hit 15 times of 1000 experiments
 hit 6 times of 1000 experiments
-hit 13 times of 1000 experiments
 hit 10 times of 1000 experiments
-hit 6 times of 1000 experiments
-hit 14 times of 1000 experiments
+hit 15 times of 1000 experiments
+hit 9 times of 1000 experiments
 ----------------------------------------------
   index            try            hit
 ----------------------------------------------
-   1              1000                6
-   2              1000                13
+   1              1000                15
+   2              1000                6
    3              1000                10
-   4              1000                6
-   5              1000                14
+   4              1000                15
+   5              1000                9
 ----------------------------------------------
-Average hint: 9.8
-Average possibility: 0.009800000000000001
-Variance: 11.36
+Average hint: 11
+Average possibility: 0.011
+Variance: 12.4
 ----------------------------------------------
 We need to generate 13173 numbers per experiment for a successful rate of 0.02000015345043027
-hit 12 times of 1000 experiments
 hit 19 times of 1000 experiments
-hit 18 times of 1000 experiments
-hit 27 times of 1000 experiments
+hit 21 times of 1000 experiments
+hit 17 times of 1000 experiments
+hit 12 times of 1000 experiments
 hit 24 times of 1000 experiments
 ----------------------------------------------
   index            try            hit
 ----------------------------------------------
-   1              1000                12
-   2              1000                19
-   3              1000                18
-   4              1000                27
+   1              1000                19
+   2              1000                21
+   3              1000                17
+   4              1000                12
    5              1000                24
 ----------------------------------------------
-Average hint: 20
-Average possibility: 0.02
-Variance: 26.8
+Average hint: 18.6
+Average possibility: 0.018600000000000002
+Variance: 16.240000000000002
 ----------------------------------------------
 We need to generate 16175 numbers per experiment for a successful rate of 0.03000051137226689
-hit 25 times of 1000 experiments
-hit 29 times of 1000 experiments
-hit 43 times of 1000 experiments
-hit 30 times of 1000 experiments
-hit 33 times of 1000 experiments
+hit 34 times of 1000 experiments
+hit 37 times of 1000 experiments
+hit 28 times of 1000 experiments
+hit 28 times of 1000 experiments
+hit 27 times of 1000 experiments
 ----------------------------------------------
   index            try            hit
 ----------------------------------------------
-   1              1000                25
-   2              1000                29
-   3              1000                43
-   4              1000                30
-   5              1000                33
+   1              1000                34
+   2              1000                37
+   3              1000                28
+   4              1000                28
+   5              1000                27
 ----------------------------------------------
-Average hint: 32
-Average possibility: 0.032
-Variance: 36.8
+Average hint: 30.8
+Average possibility: 0.0308
+Variance: 15.760000000000002
 ----------------------------------------------
 We need to generate 18726 numbers per experiment for a successful rate of 0.040002687671172765
-hit 48 times of 1000 experiments
-hit 42 times of 1000 experiments
+hit 36 times of 1000 experiments
+hit 39 times of 1000 experiments
+hit 38 times of 1000 experiments
 hit 35 times of 1000 experiments
-hit 32 times of 1000 experiments
-hit 28 times of 1000 experiments
+hit 41 times of 1000 experiments
 ----------------------------------------------
   index            try            hit
 ----------------------------------------------
-   1              1000                48
-   2              1000                42
-   3              1000                35
-   4              1000                32
-   5              1000                28
+   1              1000                36
+   2              1000                39
+   3              1000                38
+   4              1000                35
+   5              1000                41
 ----------------------------------------------
-Average hint: 37
-Average possibility: 0.037
-Variance: 51.2
+Average hint: 37.8
+Average possibility: 0.0378
+Variance: 4.56
 ----------------------------------------------
 We need to generate 20991 numbers per experiment for a successful rate of 0.050004174513133326
-hit 49 times of 1000 experiments
-hit 58 times of 1000 experiments
-hit 49 times of 1000 experiments
-hit 53 times of 1000 experiments
-hit 68 times of 1000 experiments
+hit 46 times of 1000 experiments
+hit 50 times of 1000 experiments
+hit 51 times of 1000 experiments
+hit 57 times of 1000 experiments
+hit 51 times of 1000 experiments
 ----------------------------------------------
   index            try            hit
 ----------------------------------------------
-   1              1000                49
-   2              1000                58
-   3              1000                49
-   4              1000                53
-   5              1000                68
+   1              1000                46
+   2              1000                50
+   3              1000                51
+   4              1000                57
+   5              1000                51
 ----------------------------------------------
-Average hint: 55.4
-Average possibility: 0.0554
-Variance: 50.64
+Average hint: 51
+Average possibility: 0.051
+Variance: 12.4
 ----------------------------------------------
 We need to generate 23054 numbers per experiment for a successful rate of 0.06000057454731844
-hit 62 times of 1000 experiments
+hit 60 times of 1000 experiments
 hit 52 times of 1000 experiments
-hit 69 times of 1000 experiments
-hit 58 times of 1000 experiments
-hit 62 times of 1000 experiments
+hit 55 times of 1000 experiments
+hit 65 times of 1000 experiments
+hit 56 times of 1000 experiments
 ----------------------------------------------
   index            try            hit
 ----------------------------------------------
-   1              1000                62
+   1              1000                60
    2              1000                52
-   3              1000                69
-   4              1000                58
-   5              1000                62
+   3              1000                55
+   4              1000                65
+   5              1000                56
 ----------------------------------------------
-Average hint: 60.6
-Average possibility: 0.0606
-Variance: 31.040000000000003
+Average hint: 57.6
+Average possibility: 0.0576
+Variance: 20.24
 ----------------------------------------------
 We need to generate 24968 numbers per experiment for a successful rate of 0.07000538032794801
-hit 68 times of 1000 experiments
 hit 71 times of 1000 experiments
-hit 67 times of 1000 experiments
-hit 67 times of 1000 experiments
-hit 75 times of 1000 experiments
+hit 72 times of 1000 experiments
+hit 72 times of 1000 experiments
+hit 66 times of 1000 experiments
+hit 56 times of 1000 experiments
 ----------------------------------------------
   index            try            hit
 ----------------------------------------------
-   1              1000                68
-   2              1000                71
-   3              1000                67
-   4              1000                67
-   5              1000                75
+   1              1000                71
+   2              1000                72
+   3              1000                72
+   4              1000                66
+   5              1000                56
 ----------------------------------------------
-Average hint: 69.6
-Average possibility: 0.0696
-Variance: 9.440000000000001
+Average hint: 67.4
+Average possibility: 0.0674
+Variance: 37.44
 ----------------------------------------------
 We need to generate 26763 numbers per experiment for a successful rate of 0.08000469673831923
-hit 64 times of 1000 experiments
-hit 66 times of 1000 experiments
-hit 83 times of 1000 experiments
+hit 79 times of 1000 experiments
+hit 84 times of 1000 experiments
 hit 88 times of 1000 experiments
-hit 81 times of 1000 experiments
+hit 69 times of 1000 experiments
+hit 83 times of 1000 experiments
 ----------------------------------------------
   index            try            hit
 ----------------------------------------------
-   1              1000                64
-   2              1000                66
-   3              1000                83
-   4              1000                88
-   5              1000                81
+   1              1000                79
+   2              1000                84
+   3              1000                88
+   4              1000                69
+   5              1000                83
 ----------------------------------------------
-Average hint: 76.4
-Average possibility: 0.07640000000000001
-Variance: 92.24000000000001
+Average hint: 80.6
+Average possibility: 0.08059999999999999
+Variance: 41.839999999999996
 ----------------------------------------------
 We need to generate 28463 numbers per experiment for a successful rate of 0.09000530259428663
+hit 96 times of 1000 experiments
+hit 105 times of 1000 experiments
 hit 88 times of 1000 experiments
-hit 78 times of 1000 experiments
-hit 77 times of 1000 experiments
-hit 86 times of 1000 experiments
-hit 89 times of 1000 experiments
+hit 82 times of 1000 experiments
+hit 91 times of 1000 experiments
 ----------------------------------------------
   index            try            hit
 ----------------------------------------------
-   1              1000                88
-   2              1000                78
-   3              1000                77
-   4              1000                86
-   5              1000                89
+   1              1000                96
+   2              1000                105
+   3              1000                88
+   4              1000                82
+   5              1000                91
 ----------------------------------------------
-Average hint: 83.6
-Average possibility: 0.0836
-Variance: 25.840000000000003
+Average hint: 92.4
+Average possibility: 0.09240000000000001
+Variance: 60.239999999999995
 ----------------------------------------------
 We need to generate 30084 numbers per experiment for a successful rate of 0.10000411921090735
-hit 100 times of 1000 experiments
-hit 103 times of 1000 experiments
-hit 122 times of 1000 experiments
-hit 95 times of 1000 experiments
-hit 97 times of 1000 experiments
+hit 101 times of 1000 experiments
+hit 105 times of 1000 experiments
+hit 102 times of 1000 experiments
+hit 109 times of 1000 experiments
+hit 107 times of 1000 experiments
 ----------------------------------------------
   index            try            hit
 ----------------------------------------------
-   1              1000                100
-   2              1000                103
-   3              1000                122
-   4              1000                95
-   5              1000                97
+   1              1000                101
+   2              1000                105
+   3              1000                102
+   4              1000                109
+   5              1000                107
 ----------------------------------------------
-Average hint: 103.4
-Average possibility: 0.1034
-Variance: 93.84
+Average hint: 104.8
+Average possibility: 0.10479999999999999
+Variance: 8.96
 ----------------------------------------------
 We need to generate 31639 numbers per experiment for a successful rate of 0.11000440951090862
-hit 120 times of 1000 experiments
-hit 96 times of 1000 experiments
-hit 120 times of 1000 experiments
-hit 125 times of 1000 experiments
-hit 101 times of 1000 experiments
+hit 119 times of 1000 experiments
+hit 118 times of 1000 experiments
+hit 113 times of 1000 experiments
+hit 109 times of 1000 experiments
+hit 124 times of 1000 experiments
 ----------------------------------------------
   index            try            hit
 ----------------------------------------------
-   1              1000                120
-   2              1000                96
-   3              1000                120
-   4              1000                125
-   5              1000                101
+   1              1000                119
+   2              1000                118
+   3              1000                113
+   4              1000                109
+   5              1000                124
 ----------------------------------------------
-Average hint: 112.4
-Average possibility: 0.1124
-Variance: 134.64000000000001
+Average hint: 116.6
+Average possibility: 0.1166
+Variance: 26.639999999999997
 ----------------------------------------------
 We need to generate 33137 numbers per experiment for a successful rate of 0.12000168321955873
+hit 116 times of 1000 experiments
 hit 124 times of 1000 experiments
-hit 122 times of 1000 experiments
-hit 125 times of 1000 experiments
-hit 122 times of 1000 experiments
-hit 125 times of 1000 experiments
+hit 114 times of 1000 experiments
+hit 105 times of 1000 experiments
+hit 120 times of 1000 experiments
 ----------------------------------------------
   index            try            hit
 ----------------------------------------------
-   1              1000                124
-   2              1000                122
-   3              1000                125
-   4              1000                122
-   5              1000                125
+   1              1000                116
+   2              1000                124
+   3              1000                114
+   4              1000                105
+   5              1000                120
 ----------------------------------------------
-Average hint: 123.6
-Average possibility: 0.12359999999999999
-Variance: 1.8399999999999999
+Average hint: 115.8
+Average possibility: 0.1158
+Variance: 40.96
 ----------------------------------------------
 We need to generate 34587 numbers per experiment for a successful rate of 0.13000469113767266
-hit 105 times of 1000 experiments
-hit 115 times of 1000 experiments
-hit 123 times of 1000 experiments
-hit 136 times of 1000 experiments
-hit 132 times of 1000 experiments
+hit 121 times of 1000 experiments
+hit 144 times of 1000 experiments
+hit 130 times of 1000 experiments
+hit 117 times of 1000 experiments
+hit 110 times of 1000 experiments
 ----------------------------------------------
   index            try            hit
 ----------------------------------------------
-   1              1000                105
-   2              1000                115
-   3              1000                123
-   4              1000                136
-   5              1000                132
+   1              1000                121
+   2              1000                144
+   3              1000                130
+   4              1000                117
+   5              1000                110
 ----------------------------------------------
-Average hint: 122.2
-Average possibility: 0.1222
-Variance: 126.96
+Average hint: 124.4
+Average possibility: 0.12440000000000001
+Variance: 137.84
 ----------------------------------------------
 We need to generate 35994 numbers per experiment for a successful rate of 0.14000489489934453
-hit 139 times of 1000 experiments
-hit 159 times of 1000 experiments
-hit 136 times of 1000 experiments
-hit 152 times of 1000 experiments
-hit 159 times of 1000 experiments
+hit 148 times of 1000 experiments
+hit 158 times of 1000 experiments
+hit 144 times of 1000 experiments
+hit 141 times of 1000 experiments
+hit 126 times of 1000 experiments
 ----------------------------------------------
   index            try            hit
 ----------------------------------------------
-   1              1000                139
-   2              1000                159
-   3              1000                136
-   4              1000                152
-   5              1000                159
+   1              1000                148
+   2              1000                158
+   3              1000                144
+   4              1000                141
+   5              1000                126
 ----------------------------------------------
-Average hint: 149
-Average possibility: 0.149
-Variance: 95.6
+Average hint: 143.4
+Average possibility: 0.1434
+Variance: 108.64000000000001
 ----------------------------------------------
 We need to generate 37363 numbers per experiment for a successful rate of 0.1500008120269949
-hit 160 times of 1000 experiments
-hit 148 times of 1000 experiments
-hit 169 times of 1000 experiments
-hit 154 times of 1000 experiments
-hit 166 times of 1000 experiments
+hit 170 times of 1000 experiments
+hit 135 times of 1000 experiments
+hit 150 times of 1000 experiments
+hit 151 times of 1000 experiments
+hit 143 times of 1000 experiments
 ----------------------------------------------
   index            try            hit
 ----------------------------------------------
-   1              1000                160
-   2              1000                148
-   3              1000                169
-   4              1000                154
-   5              1000                166
+   1              1000                170
+   2              1000                135
+   3              1000                150
+   4              1000                151
+   5              1000                143
 ----------------------------------------------
-Average hint: 159.4
-Average possibility: 0.15940000000000001
-Variance: 59.04
+Average hint: 149.8
+Average possibility: 0.14980000000000002
+Variance: 134.95999999999998
 ----------------------------------------------
 We need to generate 38700 numbers per experiment for a successful rate of 0.16000479236565257
-hit 160 times of 1000 experiments
-hit 151 times of 1000 experiments
-hit 144 times of 1000 experiments
-hit 135 times of 1000 experiments
-hit 151 times of 1000 experiments
+hit 159 times of 1000 experiments
+hit 168 times of 1000 experiments
+hit 158 times of 1000 experiments
+hit 161 times of 1000 experiments
+hit 176 times of 1000 experiments
 ----------------------------------------------
   index            try            hit
 ----------------------------------------------
-   1              1000                160
-   2              1000                151
-   3              1000                144
-   4              1000                135
-   5              1000                151
+   1              1000                159
+   2              1000                168
+   3              1000                158
+   4              1000                161
+   5              1000                176
 ----------------------------------------------
-Average hint: 148.2
-Average possibility: 0.1482
-Variance: 69.36
+Average hint: 164.4
+Average possibility: 0.16440000000000002
+Variance: 45.839999999999996
 ----------------------------------------------
 We need to generate 40007 numbers per experiment for a successful rate of 0.17000445796491037
-hit 164 times of 1000 experiments
-hit 167 times of 1000 experiments
-hit 152 times of 1000 experiments
-hit 177 times of 1000 experiments
-hit 180 times of 1000 experiments
+hit 192 times of 1000 experiments
+hit 165 times of 1000 experiments
+hit 174 times of 1000 experiments
+hit 172 times of 1000 experiments
+hit 148 times of 1000 experiments
 ----------------------------------------------
   index            try            hit
 ----------------------------------------------
-   1              1000                164
-   2              1000                167
-   3              1000                152
-   4              1000                177
-   5              1000                180
+   1              1000                192
+   2              1000                165
+   3              1000                174
+   4              1000                172
+   5              1000                148
 ----------------------------------------------
-Average hint: 168
-Average possibility: 0.168
-Variance: 99.6
+Average hint: 170.2
+Average possibility: 0.1702
+Variance: 202.56
 ----------------------------------------------
 We need to generate 41288 numbers per experiment for a successful rate of 0.18000621558078034
-hit 191 times of 1000 experiments
-hit 202 times of 1000 experiments
-hit 190 times of 1000 experiments
-hit 176 times of 1000 experiments
-hit 175 times of 1000 experiments
+hit 215 times of 1000 experiments
+hit 172 times of 1000 experiments
+hit 174 times of 1000 experiments
+hit 198 times of 1000 experiments
+hit 210 times of 1000 experiments
 ----------------------------------------------
   index            try            hit
 ----------------------------------------------
-   1              1000                191
-   2              1000                202
-   3              1000                190
-   4              1000                176
-   5              1000                175
+   1              1000                215
+   2              1000                172
+   3              1000                174
+   4              1000                198
+   5              1000                210
 ----------------------------------------------
-Average hint: 186.8
-Average possibility: 0.18680000000000002
-Variance: 102.96
+Average hint: 193.8
+Average possibility: 0.1938
+Variance: 319.36
 ----------------------------------------------
 We need to generate 42545 numbers per experiment for a successful rate of 0.19000430662280743
-hit 200 times of 1000 experiments
-hit 197 times of 1000 experiments
-hit 189 times of 1000 experiments
-hit 208 times of 1000 experiments
-hit 185 times of 1000 experiments
+hit 206 times of 1000 experiments
+hit 187 times of 1000 experiments
+hit 176 times of 1000 experiments
+hit 191 times of 1000 experiments
+hit 186 times of 1000 experiments
 ----------------------------------------------
   index            try            hit
 ----------------------------------------------
-   1              1000                200
-   2              1000                197
-   3              1000                189
-   4              1000                208
-   5              1000                185
+   1              1000                206
+   2              1000                187
+   3              1000                176
+   4              1000                191
+   5              1000                186
 ----------------------------------------------
-Average hint: 195.8
-Average possibility: 0.1958
-Variance: 66.16
+Average hint: 189.2
+Average possibility: 0.18919999999999998
+Variance: 94.96000000000001
 ----------------------------------------------
 We need to generate 43781 numbers per experiment for a successful rate of 0.20000351528882265
+hit 208 times of 1000 experiments
 hit 209 times of 1000 experiments
-hit 193 times of 1000 experiments
-hit 199 times of 1000 experiments
-hit 214 times of 1000 experiments
-hit 207 times of 1000 experiments
+hit 202 times of 1000 experiments
+hit 226 times of 1000 experiments
+hit 200 times of 1000 experiments
 ----------------------------------------------
   index            try            hit
 ----------------------------------------------
-   1              1000                209
-   2              1000                193
-   3              1000                199
-   4              1000                214
-   5              1000                207
+   1              1000                208
+   2              1000                209
+   3              1000                202
+   4              1000                226
+   5              1000                200
 ----------------------------------------------
-Average hint: 204.4
-Average possibility: 0.2044
-Variance: 55.839999999999996
+Average hint: 209
+Average possibility: 0.209
+Variance: 84
 ----------------------------------------------
 We need to generate 44998 numbers per experiment for a successful rate of 0.21000300249650616
-hit 210 times of 1000 experiments
+hit 227 times of 1000 experiments
 hit 207 times of 1000 experiments
-hit 236 times of 1000 experiments
-hit 219 times of 1000 experiments
-hit 220 times of 1000 experiments
+hit 204 times of 1000 experiments
+hit 185 times of 1000 experiments
+hit 196 times of 1000 experiments
 ----------------------------------------------
   index            try            hit
 ----------------------------------------------
-   1              1000                210
+   1              1000                227
    2              1000                207
-   3              1000                236
-   4              1000                219
-   5              1000                220
+   3              1000                204
+   4              1000                185
+   5              1000                196
 ----------------------------------------------
-Average hint: 218.4
-Average possibility: 0.2184
-Variance: 102.64000000000001
+Average hint: 203.8
+Average possibility: 0.2038
+Variance: 192.56
 ----------------------------------------------
 We need to generate 46198 numbers per experiment for a successful rate of 0.22000383464229867
-hit 209 times of 1000 experiments
-hit 221 times of 1000 experiments
-hit 221 times of 1000 experiments
-hit 230 times of 1000 experiments
-hit 222 times of 1000 experiments
+hit 229 times of 1000 experiments
+hit 214 times of 1000 experiments
+hit 218 times of 1000 experiments
+hit 208 times of 1000 experiments
+hit 217 times of 1000 experiments
 ----------------------------------------------
   index            try            hit
 ----------------------------------------------
-   1              1000                209
-   2              1000                221
-   3              1000                221
-   4              1000                230
-   5              1000                222
+   1              1000                229
+   2              1000                214
+   3              1000                218
+   4              1000                208
+   5              1000                217
 ----------------------------------------------
-Average hint: 220.6
-Average possibility: 0.2206
-Variance: 45.03999999999999
+Average hint: 217.2
+Average possibility: 0.21719999999999998
+Variance: 46.959999999999994
 ----------------------------------------------
 We need to generate 47382 numbers per experiment for a successful rate of 0.23000029886432272
-hit 231 times of 1000 experiments
-hit 231 times of 1000 experiments
+hit 246 times of 1000 experiments
 hit 227 times of 1000 experiments
-hit 222 times of 1000 experiments
-hit 242 times of 1000 experiments
+hit 237 times of 1000 experiments
+hit 268 times of 1000 experiments
+hit 224 times of 1000 experiments
 ----------------------------------------------
   index            try            hit
 ----------------------------------------------
-   1              1000                231
-   2              1000                231
-   3              1000                227
-   4              1000                222
-   5              1000                242
+   1              1000                246
+   2              1000                227
+   3              1000                237
+   4              1000                268
+   5              1000                224
 ----------------------------------------------
-Average hint: 230.6
-Average possibility: 0.2306
-Variance: 43.44
+Average hint: 240.4
+Average possibility: 0.2404
+Variance: 250.64000000000001
 ----------------------------------------------
 We need to generate 48553 numbers per experiment for a successful rate of 0.24000501582808065
-hit 232 times of 1000 experiments
-hit 249 times of 1000 experiments
-hit 243 times of 1000 experiments
-hit 220 times of 1000 experiments
-hit 234 times of 1000 experiments
+hit 236 times of 1000 experiments
+hit 239 times of 1000 experiments
+hit 236 times of 1000 experiments
+hit 245 times of 1000 experiments
+hit 255 times of 1000 experiments
 ----------------------------------------------
   index            try            hit
 ----------------------------------------------
-   1              1000                232
-   2              1000                249
-   3              1000                243
-   4              1000                220
-   5              1000                234
+   1              1000                236
+   2              1000                239
+   3              1000                236
+   4              1000                245
+   5              1000                255
 ----------------------------------------------
-Average hint: 235.6
-Average possibility: 0.2356
-Variance: 98.64
+Average hint: 242.2
+Average possibility: 0.2422
+Variance: 51.75999999999999
 ----------------------------------------------
 We need to generate 49711 numbers per experiment for a successful rate of 0.2500063371541841
 hit 253 times of 1000 experiments
-hit 268 times of 1000 experiments
-hit 259 times of 1000 experiments
-hit 247 times of 1000 experiments
-hit 264 times of 1000 experiments
+hit 238 times of 1000 experiments
+hit 271 times of 1000 experiments
+hit 239 times of 1000 experiments
+hit 251 times of 1000 experiments
 ----------------------------------------------
   index            try            hit
 ----------------------------------------------
    1              1000                253
-   2              1000                268
-   3              1000                259
-   4              1000                247
-   5              1000                264
+   2              1000                238
+   3              1000                271
+   4              1000                239
+   5              1000                251
 ----------------------------------------------
-Average hint: 258.2
-Average possibility: 0.2582
-Variance: 56.55999999999999
+Average hint: 250.4
+Average possibility: 0.2504
+Variance: 143.04000000000002
 ----------------------------------------------
 We need to generate 50857 numbers per experiment for a successful rate of 0.2600019351550109
 hit 253 times of 1000 experiments
-hit 250 times of 1000 experiments
-hit 239 times of 1000 experiments
-hit 264 times of 1000 experiments
-hit 249 times of 1000 experiments
+hit 257 times of 1000 experiments
+hit 254 times of 1000 experiments
+hit 283 times of 1000 experiments
+hit 258 times of 1000 experiments
 ----------------------------------------------
   index            try            hit
 ----------------------------------------------
    1              1000                253
-   2              1000                250
-   3              1000                239
-   4              1000                264
-   5              1000                249
+   2              1000                257
+   3              1000                254
+   4              1000                283
+   5              1000                258
 ----------------------------------------------
-Average hint: 251
-Average possibility: 0.251
-Variance: 64.4
+Average hint: 261
+Average possibility: 0.261
+Variance: 124.4
 ----------------------------------------------
 We need to generate 51994 numbers per experiment for a successful rate of 0.2700080076052266
-hit 251 times of 1000 experiments
-hit 279 times of 1000 experiments
-hit 278 times of 1000 experiments
 hit 277 times of 1000 experiments
 hit 271 times of 1000 experiments
+hit 251 times of 1000 experiments
+hit 237 times of 1000 experiments
+hit 261 times of 1000 experiments
 ----------------------------------------------
   index            try            hit
 ----------------------------------------------
-   1              1000                251
-   2              1000                279
-   3              1000                278
-   4              1000                277
-   5              1000                271
+   1              1000                277
+   2              1000                271
+   3              1000                251
+   4              1000                237
+   5              1000                261
 ----------------------------------------------
-Average hint: 271.2
-Average possibility: 0.2712
-Variance: 109.75999999999999
+Average hint: 259.4
+Average possibility: 0.25939999999999996
+Variance: 203.83999999999997
 ----------------------------------------------
 We need to generate 53121 numbers per experiment for a successful rate of 0.28000644969930877
-hit 264 times of 1000 experiments
-hit 270 times of 1000 experiments
+hit 253 times of 1000 experiments
+hit 248 times of 1000 experiments
 hit 284 times of 1000 experiments
-hit 294 times of 1000 experiments
-hit 286 times of 1000 experiments
+hit 284 times of 1000 experiments
+hit 272 times of 1000 experiments
 ----------------------------------------------
   index            try            hit
 ----------------------------------------------
-   1              1000                264
-   2              1000                270
+   1              1000                253
+   2              1000                248
    3              1000                284
-   4              1000                294
-   5              1000                286
+   4              1000                284
+   5              1000                272
 ----------------------------------------------
-Average hint: 279.6
-Average possibility: 0.2796
-Variance: 120.63999999999999
+Average hint: 268.2
+Average possibility: 0.2682
+Variance: 230.56
 ----------------------------------------------
 We need to generate 54240 numbers per experiment for a successful rate of 0.2900061886200932
-hit 288 times of 1000 experiments
-hit 312 times of 1000 experiments
-hit 277 times of 1000 experiments
+hit 280 times of 1000 experiments
+hit 281 times of 1000 experiments
+hit 283 times of 1000 experiments
 hit 282 times of 1000 experiments
-hit 268 times of 1000 experiments
+hit 291 times of 1000 experiments
 ----------------------------------------------
   index            try            hit
 ----------------------------------------------
-   1              1000                288
-   2              1000                312
-   3              1000                277
+   1              1000                280
+   2              1000                281
+   3              1000                283
    4              1000                282
-   5              1000                268
+   5              1000                291
 ----------------------------------------------
-Average hint: 285.4
-Average possibility: 0.2854
-Variance: 219.83999999999997
+Average hint: 283.4
+Average possibility: 0.2834
+Variance: 15.440000000000001
 ----------------------------------------------
 We need to generate 55352 numbers per experiment for a successful rate of 0.3000079844176088
-hit 297 times of 1000 experiments
-hit 318 times of 1000 experiments
-hit 296 times of 1000 experiments
+hit 319 times of 1000 experiments
+hit 312 times of 1000 experiments
 hit 282 times of 1000 experiments
-hit 304 times of 1000 experiments
+hit 317 times of 1000 experiments
+hit 277 times of 1000 experiments
 ----------------------------------------------
   index            try            hit
 ----------------------------------------------
-   1              1000                297
-   2              1000                318
-   3              1000                296
-   4              1000                282
-   5              1000                304
+   1              1000                319
+   2              1000                312
+   3              1000                282
+   4              1000                317
+   5              1000                277
 ----------------------------------------------
-Average hint: 299.4
-Average possibility: 0.2994
-Variance: 137.44
+Average hint: 301.4
+Average possibility: 0.3014
+Variance: 327.43999999999994
 ----------------------------------------------
 We need to generate 56457 numbers per experiment for a successful rate of 0.310004058134541
-hit 314 times of 1000 experiments
-hit 287 times of 1000 experiments
-hit 298 times of 1000 experiments
-hit 329 times of 1000 experiments
-hit 310 times of 1000 experiments
-----------------------------------------------
-  index            try            hit
-----------------------------------------------
-   1              1000                314
-   2              1000                287
-   3              1000                298
-   4              1000                329
-   5              1000                310
-----------------------------------------------
-Average hint: 307.6
-Average possibility: 0.30760000000000004
-Variance: 204.23999999999998
-----------------------------------------------
-We need to generate 57557 numbers per experiment for a successful rate of 0.320005155103957
-hit 308 times of 1000 experiments
-hit 334 times of 1000 experiments
-hit 316 times of 1000 experiments
-hit 301 times of 1000 experiments
-hit 335 times of 1000 experiments
-----------------------------------------------
-  index            try            hit
-----------------------------------------------
-   1              1000                308
-   2              1000                334
-   3              1000                316
-   4              1000                301
-   5              1000                335
-----------------------------------------------
-Average hint: 318.8
-Average possibility: 0.31880000000000003
-Variance: 186.95999999999998
-----------------------------------------------
-We need to generate 58652 numbers per experiment for a successful rate of 0.3300043143662328
-hit 330 times of 1000 experiments
-hit 285 times of 1000 experiments
-hit 334 times of 1000 experiments
-hit 329 times of 1000 experiments
-hit 325 times of 1000 experiments
-----------------------------------------------
-  index            try            hit
-----------------------------------------------
-   1              1000                330
-   2              1000                285
-   3              1000                334
-   4              1000                329
-   5              1000                325
-----------------------------------------------
-Average hint: 320.6
-Average possibility: 0.3206
-Variance: 325.0400000000001
-----------------------------------------------
-We need to generate 59743 numbers per experiment for a successful rate of 0.3400039843804925
-hit 345 times of 1000 experiments
-hit 354 times of 1000 experiments
-hit 316 times of 1000 experiments
-hit 351 times of 1000 experiments
+hit 300 times of 1000 experiments
+hit 312 times of 1000 experiments
+hit 293 times of 1000 experiments
+hit 321 times of 1000 experiments
 hit 316 times of 1000 experiments
 ----------------------------------------------
   index            try            hit
 ----------------------------------------------
-   1              1000                345
-   2              1000                354
-   3              1000                316
-   4              1000                351
+   1              1000                300
+   2              1000                312
+   3              1000                293
+   4              1000                321
    5              1000                316
 ----------------------------------------------
-Average hint: 336.4
-Average possibility: 0.3364
-Variance: 285.84
+Average hint: 308.4
+Average possibility: 0.30839999999999995
+Variance: 107.43999999999998
 ----------------------------------------------
-We need to generate 60831 numbers per experiment for a successful rate of 0.3500069457738614
-hit 320 times of 1000 experiments
-hit 358 times of 1000 experiments
+We need to generate 57557 numbers per experiment for a successful rate of 0.320005155103957
+hit 334 times of 1000 experiments
+hit 316 times of 1000 experiments
+hit 307 times of 1000 experiments
+hit 319 times of 1000 experiments
+hit 332 times of 1000 experiments
+----------------------------------------------
+  index            try            hit
+----------------------------------------------
+   1              1000                334
+   2              1000                316
+   3              1000                307
+   4              1000                319
+   5              1000                332
+----------------------------------------------
+Average hint: 321.6
+Average possibility: 0.3216
+Variance: 102.63999999999999
+----------------------------------------------
+We need to generate 58652 numbers per experiment for a successful rate of 0.3300043143662328
+hit 351 times of 1000 experiments
+hit 341 times of 1000 experiments
+hit 328 times of 1000 experiments
 hit 324 times of 1000 experiments
-hit 353 times of 1000 experiments
 hit 343 times of 1000 experiments
 ----------------------------------------------
   index            try            hit
 ----------------------------------------------
-   1              1000                320
-   2              1000                358
-   3              1000                324
-   4              1000                353
+   1              1000                351
+   2              1000                341
+   3              1000                328
+   4              1000                324
    5              1000                343
 ----------------------------------------------
-Average hint: 339.6
-Average possibility: 0.3396
-Variance: 231.44
+Average hint: 337.4
+Average possibility: 0.3374
+Variance: 99.43999999999998
 ----------------------------------------------
-We need to generate 61916 numbers per experiment for a successful rate of 0.360007031390846
-hit 342 times of 1000 experiments
-hit 351 times of 1000 experiments
-hit 339 times of 1000 experiments
-hit 368 times of 1000 experiments
+We need to generate 59743 numbers per experiment for a successful rate of 0.3400039843804925
+hit 332 times of 1000 experiments
+hit 382 times of 1000 experiments
+hit 327 times of 1000 experiments
+hit 341 times of 1000 experiments
+hit 363 times of 1000 experiments
+----------------------------------------------
+  index            try            hit
+----------------------------------------------
+   1              1000                332
+   2              1000                382
+   3              1000                327
+   4              1000                341
+   5              1000                363
+----------------------------------------------
+Average hint: 349
+Average possibility: 0.349
+Variance: 424.4
+----------------------------------------------
+We need to generate 60831 numbers per experiment for a successful rate of 0.3500069457738614
+hit 363 times of 1000 experiments
+hit 360 times of 1000 experiments
+hit 334 times of 1000 experiments
+hit 318 times of 1000 experiments
 hit 373 times of 1000 experiments
 ----------------------------------------------
   index            try            hit
 ----------------------------------------------
-   1              1000                342
-   2              1000                351
-   3              1000                339
-   4              1000                368
+   1              1000                363
+   2              1000                360
+   3              1000                334
+   4              1000                318
    5              1000                373
 ----------------------------------------------
-Average hint: 354.6
-Average possibility: 0.3546
-Variance: 186.64
+Average hint: 349.6
+Average possibility: 0.3496
+Variance: 415.43999999999994
+----------------------------------------------
+We need to generate 61916 numbers per experiment for a successful rate of 0.360007031390846
+hit 370 times of 1000 experiments
+hit 375 times of 1000 experiments
+hit 369 times of 1000 experiments
+hit 351 times of 1000 experiments
+hit 356 times of 1000 experiments
+----------------------------------------------
+  index            try            hit
+----------------------------------------------
+   1              1000                370
+   2              1000                375
+   3              1000                369
+   4              1000                351
+   5              1000                356
+----------------------------------------------
+Average hint: 364.2
+Average possibility: 0.36419999999999997
+Variance: 82.96
 ----------------------------------------------
 We need to generate 62999 numbers per experiment for a successful rate of 0.37000748298136754
-hit 343 times of 1000 experiments
+hit 379 times of 1000 experiments
+hit 357 times of 1000 experiments
 hit 388 times of 1000 experiments
-hit 387 times of 1000 experiments
-hit 355 times of 1000 experiments
-hit 376 times of 1000 experiments
+hit 358 times of 1000 experiments
+hit 364 times of 1000 experiments
 ----------------------------------------------
   index            try            hit
 ----------------------------------------------
-   1              1000                343
-   2              1000                388
-   3              1000                387
-   4              1000                355
-   5              1000                376
+   1              1000                379
+   2              1000                357
+   3              1000                388
+   4              1000                358
+   5              1000                364
 ----------------------------------------------
-Average hint: 369.8
-Average possibility: 0.3698
-Variance: 320.56000000000006
+Average hint: 369.2
+Average possibility: 0.3692
+Variance: 150.16
 ----------------------------------------------
 We need to generate 64080 numbers per experiment for a successful rate of 0.38000250024466886
-hit 398 times of 1000 experiments
-hit 372 times of 1000 experiments
-hit 389 times of 1000 experiments
-hit 378 times of 1000 experiments
-hit 405 times of 1000 experiments
+hit 366 times of 1000 experiments
+hit 373 times of 1000 experiments
+hit 336 times of 1000 experiments
+hit 393 times of 1000 experiments
+hit 382 times of 1000 experiments
 ----------------------------------------------
   index            try            hit
 ----------------------------------------------
-   1              1000                398
-   2              1000                372
-   3              1000                389
-   4              1000                378
-   5              1000                405
+   1              1000                366
+   2              1000                373
+   3              1000                336
+   4              1000                393
+   5              1000                382
 ----------------------------------------------
-Average hint: 388.4
-Average possibility: 0.38839999999999997
-Variance: 149.04
+Average hint: 370
+Average possibility: 0.37
+Variance: 370.8
 ----------------------------------------------
 We need to generate 65161 numbers per experiment for a successful rate of 0.3900049341766083
-hit 396 times of 1000 experiments
-hit 376 times of 1000 experiments
-hit 372 times of 1000 experiments
-hit 398 times of 1000 experiments
-hit 353 times of 1000 experiments
+hit 366 times of 1000 experiments
+hit 393 times of 1000 experiments
+hit 383 times of 1000 experiments
+hit 388 times of 1000 experiments
+hit 392 times of 1000 experiments
 ----------------------------------------------
   index            try            hit
 ----------------------------------------------
-   1              1000                396
-   2              1000                376
-   3              1000                372
-   4              1000                398
-   5              1000                353
+   1              1000                366
+   2              1000                393
+   3              1000                383
+   4              1000                388
+   5              1000                392
 ----------------------------------------------
-Average hint: 379
-Average possibility: 0.379
-Variance: 276.8
+Average hint: 384.4
+Average possibility: 0.38439999999999996
+Variance: 97.03999999999999
 ----------------------------------------------
 We need to generate 66241 numbers per experiment for a successful rate of 0.40000001296282184
-hit 395 times of 1000 experiments
-hit 438 times of 1000 experiments
-hit 384 times of 1000 experiments
-hit 393 times of 1000 experiments
-hit 388 times of 1000 experiments
-----------------------------------------------
-  index            try            hit
-----------------------------------------------
-   1              1000                395
-   2              1000                438
-   3              1000                384
-   4              1000                393
-   5              1000                388
-----------------------------------------------
-Average hint: 399.6
-Average possibility: 0.3996
-Variance: 383.44000000000005
-----------------------------------------------
-We need to generate 67322 numbers per experiment for a successful rate of 0.410000820451209
-hit 431 times of 1000 experiments
-hit 395 times of 1000 experiments
-hit 421 times of 1000 experiments
-hit 408 times of 1000 experiments
-hit 426 times of 1000 experiments
-----------------------------------------------
-  index            try            hit
-----------------------------------------------
-   1              1000                431
-   2              1000                395
-   3              1000                421
-   4              1000                408
-   5              1000                426
-----------------------------------------------
-Average hint: 416.2
-Average possibility: 0.4162
-Variance: 170.95999999999998
-----------------------------------------------
-We need to generate 68404 numbers per experiment for a successful rate of 0.4200020023268759
-hit 399 times of 1000 experiments
-hit 446 times of 1000 experiments
-hit 406 times of 1000 experiments
-hit 437 times of 1000 experiments
+hit 401 times of 1000 experiments
+hit 398 times of 1000 experiments
+hit 404 times of 1000 experiments
+hit 378 times of 1000 experiments
 hit 417 times of 1000 experiments
 ----------------------------------------------
   index            try            hit
 ----------------------------------------------
-   1              1000                399
-   2              1000                446
-   3              1000                406
-   4              1000                437
+   1              1000                401
+   2              1000                398
+   3              1000                404
+   4              1000                378
    5              1000                417
 ----------------------------------------------
-Average hint: 421
-Average possibility: 0.421
-Variance: 321.2
+Average hint: 399.6
+Average possibility: 0.3996
+Variance: 158.64000000000001
+----------------------------------------------
+We need to generate 67322 numbers per experiment for a successful rate of 0.410000820451209
+hit 412 times of 1000 experiments
+hit 399 times of 1000 experiments
+hit 422 times of 1000 experiments
+hit 398 times of 1000 experiments
+hit 427 times of 1000 experiments
+----------------------------------------------
+  index            try            hit
+----------------------------------------------
+   1              1000                412
+   2              1000                399
+   3              1000                422
+   4              1000                398
+   5              1000                427
+----------------------------------------------
+Average hint: 411.6
+Average possibility: 0.4116
+Variance: 137.83999999999997
+----------------------------------------------
+We need to generate 68404 numbers per experiment for a successful rate of 0.4200020023268759
+hit 430 times of 1000 experiments
+hit 399 times of 1000 experiments
+hit 438 times of 1000 experiments
+hit 453 times of 1000 experiments
+hit 408 times of 1000 experiments
+----------------------------------------------
+  index            try            hit
+----------------------------------------------
+   1              1000                430
+   2              1000                399
+   3              1000                438
+   4              1000                453
+   5              1000                408
+----------------------------------------------
+Average hint: 425.6
+Average possibility: 0.42560000000000003
+Variance: 388.23999999999995
 ----------------------------------------------
 We need to generate 69488 numbers per experiment for a successful rate of 0.4300074939133919
+hit 432 times of 1000 experiments
+hit 443 times of 1000 experiments
 hit 448 times of 1000 experiments
-hit 414 times of 1000 experiments
-hit 452 times of 1000 experiments
-hit 437 times of 1000 experiments
-hit 455 times of 1000 experiments
-----------------------------------------------
-  index            try            hit
-----------------------------------------------
-   1              1000                448
-   2              1000                414
-   3              1000                452
-   4              1000                437
-   5              1000                455
-----------------------------------------------
-Average hint: 441.2
-Average possibility: 0.4412
-Variance: 222.16
-----------------------------------------------
-We need to generate 70573 numbers per experiment for a successful rate of 0.4400028185221726
-hit 436 times of 1000 experiments
-hit 440 times of 1000 experiments
-hit 434 times of 1000 experiments
-hit 423 times of 1000 experiments
-hit 489 times of 1000 experiments
-----------------------------------------------
-  index            try            hit
-----------------------------------------------
-   1              1000                436
-   2              1000                440
-   3              1000                434
-   4              1000                423
-   5              1000                489
-----------------------------------------------
-Average hint: 444.4
-Average possibility: 0.44439999999999996
-Variance: 529.04
-----------------------------------------------
-We need to generate 71661 numbers per experiment for a successful rate of 0.45000117885639146
-hit 435 times of 1000 experiments
-hit 437 times of 1000 experiments
-hit 444 times of 1000 experiments
-hit 414 times of 1000 experiments
+hit 405 times of 1000 experiments
 hit 449 times of 1000 experiments
 ----------------------------------------------
   index            try            hit
 ----------------------------------------------
-   1              1000                435
-   2              1000                437
-   3              1000                444
-   4              1000                414
+   1              1000                432
+   2              1000                443
+   3              1000                448
+   4              1000                405
    5              1000                449
 ----------------------------------------------
-Average hint: 435.8
-Average possibility: 0.4358
-Variance: 143.76
+Average hint: 435.4
+Average possibility: 0.43539999999999995
+Variance: 267.43999999999994
+----------------------------------------------
+We need to generate 70573 numbers per experiment for a successful rate of 0.4400028185221726
+hit 452 times of 1000 experiments
+hit 440 times of 1000 experiments
+hit 478 times of 1000 experiments
+hit 416 times of 1000 experiments
+hit 454 times of 1000 experiments
+----------------------------------------------
+  index            try            hit
+----------------------------------------------
+   1              1000                452
+   2              1000                440
+   3              1000                478
+   4              1000                416
+   5              1000                454
+----------------------------------------------
+Average hint: 448
+Average possibility: 0.448
+Variance: 408
+----------------------------------------------
+We need to generate 71661 numbers per experiment for a successful rate of 0.45000117885639146
+hit 454 times of 1000 experiments
+hit 432 times of 1000 experiments
+hit 446 times of 1000 experiments
+hit 454 times of 1000 experiments
+hit 435 times of 1000 experiments
+----------------------------------------------
+  index            try            hit
+----------------------------------------------
+   1              1000                454
+   2              1000                432
+   3              1000                446
+   4              1000                454
+   5              1000                435
+----------------------------------------------
+Average hint: 444.2
+Average possibility: 0.4442
+Variance: 85.75999999999999
 ----------------------------------------------
 We need to generate 72753 numbers per experiment for a successful rate of 0.4600064760007725
-hit 471 times of 1000 experiments
-hit 470 times of 1000 experiments
-hit 443 times of 1000 experiments
-hit 475 times of 1000 experiments
-hit 442 times of 1000 experiments
+hit 473 times of 1000 experiments
+hit 474 times of 1000 experiments
+hit 465 times of 1000 experiments
+hit 462 times of 1000 experiments
+hit 446 times of 1000 experiments
 ----------------------------------------------
   index            try            hit
 ----------------------------------------------
-   1              1000                471
-   2              1000                470
-   3              1000                443
-   4              1000                475
-   5              1000                442
+   1              1000                473
+   2              1000                474
+   3              1000                465
+   4              1000                462
+   5              1000                446
 ----------------------------------------------
-Average hint: 460.2
-Average possibility: 0.4602
-Variance: 211.76
+Average hint: 464
+Average possibility: 0.464
+Variance: 102
 ----------------------------------------------
 We need to generate 73848 numbers per experiment for a successful rate of 0.47000428050189813
-hit 478 times of 1000 experiments
-hit 479 times of 1000 experiments
+hit 440 times of 1000 experiments
 hit 497 times of 1000 experiments
-hit 475 times of 1000 experiments
-hit 489 times of 1000 experiments
+hit 470 times of 1000 experiments
+hit 455 times of 1000 experiments
+hit 473 times of 1000 experiments
 ----------------------------------------------
   index            try            hit
 ----------------------------------------------
-   1              1000                478
-   2              1000                479
-   3              1000                497
-   4              1000                475
-   5              1000                489
+   1              1000                440
+   2              1000                497
+   3              1000                470
+   4              1000                455
+   5              1000                473
 ----------------------------------------------
-Average hint: 483.6
-Average possibility: 0.48360000000000003
-Variance: 67.03999999999999
+Average hint: 467
+Average possibility: 0.467
+Variance: 363.6
 ----------------------------------------------
 We need to generate 74948 numbers per experiment for a successful rate of 0.4800075515043605
-hit 480 times of 1000 experiments
-hit 480 times of 1000 experiments
-hit 494 times of 1000 experiments
-hit 466 times of 1000 experiments
-hit 485 times of 1000 experiments
-----------------------------------------------
-  index            try            hit
-----------------------------------------------
-   1              1000                480
-   2              1000                480
-   3              1000                494
-   4              1000                466
-   5              1000                485
-----------------------------------------------
-Average hint: 481
-Average possibility: 0.481
-Variance: 82.4
-----------------------------------------------
-We need to generate 76052 numbers per experiment for a successful rate of 0.4900018539947557
-hit 482 times of 1000 experiments
-hit 493 times of 1000 experiments
-hit 501 times of 1000 experiments
-hit 484 times of 1000 experiments
-hit 501 times of 1000 experiments
-----------------------------------------------
-  index            try            hit
-----------------------------------------------
-   1              1000                482
-   2              1000                493
-   3              1000                501
-   4              1000                484
-   5              1000                501
-----------------------------------------------
-Average hint: 492.2
-Average possibility: 0.49219999999999997
-Variance: 65.35999999999999
-----------------------------------------------
-We need to generate 77163 numbers per experiment for a successful rate of 0.5000088735554575
 hit 496 times of 1000 experiments
-hit 479 times of 1000 experiments
-hit 525 times of 1000 experiments
-hit 514 times of 1000 experiments
 hit 477 times of 1000 experiments
+hit 514 times of 1000 experiments
+hit 441 times of 1000 experiments
+hit 496 times of 1000 experiments
 ----------------------------------------------
   index            try            hit
 ----------------------------------------------
    1              1000                496
-   2              1000                479
-   3              1000                525
-   4              1000                514
-   5              1000                477
+   2              1000                477
+   3              1000                514
+   4              1000                441
+   5              1000                496
 ----------------------------------------------
-Average hint: 498.2
-Average possibility: 0.4982
-Variance: 358.16
+Average hint: 484.8
+Average possibility: 0.4848
+Variance: 616.56
+----------------------------------------------
+We need to generate 76052 numbers per experiment for a successful rate of 0.4900018539947557
+hit 518 times of 1000 experiments
+hit 467 times of 1000 experiments
+hit 499 times of 1000 experiments
+hit 476 times of 1000 experiments
+hit 489 times of 1000 experiments
+----------------------------------------------
+  index            try            hit
+----------------------------------------------
+   1              1000                518
+   2              1000                467
+   3              1000                499
+   4              1000                476
+   5              1000                489
+----------------------------------------------
+Average hint: 489.8
+Average possibility: 0.4898
+Variance: 318.16
+----------------------------------------------
+We need to generate 77163 numbers per experiment for a successful rate of 0.5000088735554575
+hit 514 times of 1000 experiments
+hit 517 times of 1000 experiments
+hit 505 times of 1000 experiments
+hit 507 times of 1000 experiments
+hit 493 times of 1000 experiments
+----------------------------------------------
+  index            try            hit
+----------------------------------------------
+   1              1000                514
+   2              1000                517
+   3              1000                505
+   4              1000                507
+   5              1000                493
+----------------------------------------------
+Average hint: 507.2
+Average possibility: 0.5072
+Variance: 69.75999999999999
 ----------------------------------------------
 We need to generate 78279 numbers per experiment for a successful rate of 0.5100050466766741
-hit 492 times of 1000 experiments
-hit 513 times of 1000 experiments
-hit 523 times of 1000 experiments
-hit 495 times of 1000 experiments
-hit 500 times of 1000 experiments
+hit 530 times of 1000 experiments
+hit 515 times of 1000 experiments
+hit 503 times of 1000 experiments
+hit 517 times of 1000 experiments
+hit 519 times of 1000 experiments
 ----------------------------------------------
   index            try            hit
 ----------------------------------------------
-   1              1000                492
-   2              1000                513
-   3              1000                523
-   4              1000                495
-   5              1000                500
+   1              1000                530
+   2              1000                515
+   3              1000                503
+   4              1000                517
+   5              1000                519
 ----------------------------------------------
-Average hint: 504.6
-Average possibility: 0.5046
-Variance: 136.23999999999998
+Average hint: 516.8
+Average possibility: 0.5167999999999999
+Variance: 74.56
 ----------------------------------------------
 We need to generate 79402 numbers per experiment for a successful rate of 0.5200027187498862
-hit 501 times of 1000 experiments
-hit 547 times of 1000 experiments
-hit 542 times of 1000 experiments
-hit 505 times of 1000 experiments
-hit 516 times of 1000 experiments
+hit 500 times of 1000 experiments
+hit 495 times of 1000 experiments
+hit 525 times of 1000 experiments
+hit 512 times of 1000 experiments
+hit 529 times of 1000 experiments
 ----------------------------------------------
   index            try            hit
 ----------------------------------------------
-   1              1000                501
-   2              1000                547
-   3              1000                542
-   4              1000                505
-   5              1000                516
+   1              1000                500
+   2              1000                495
+   3              1000                525
+   4              1000                512
+   5              1000                529
 ----------------------------------------------
-Average hint: 522.2
-Average possibility: 0.5222
-Variance: 358.15999999999997
+Average hint: 512.2
+Average possibility: 0.5122000000000001
+Variance: 178.16
 ----------------------------------------------
 We need to generate 80533 numbers per experiment for a successful rate of 0.5300049542262751
+hit 521 times of 1000 experiments
+hit 510 times of 1000 experiments
+hit 528 times of 1000 experiments
+hit 542 times of 1000 experiments
 hit 545 times of 1000 experiments
-hit 502 times of 1000 experiments
-hit 533 times of 1000 experiments
+----------------------------------------------
+  index            try            hit
+----------------------------------------------
+   1              1000                521
+   2              1000                510
+   3              1000                528
+   4              1000                542
+   5              1000                545
+----------------------------------------------
+Average hint: 529.2
+Average possibility: 0.5292
+Variance: 170.16
+----------------------------------------------
+We need to generate 81672 numbers per experiment for a successful rate of 0.5400057850013255
+hit 532 times of 1000 experiments
+hit 549 times of 1000 experiments
 hit 550 times of 1000 experiments
+hit 538 times of 1000 experiments
+hit 554 times of 1000 experiments
+----------------------------------------------
+  index            try            hit
+----------------------------------------------
+   1              1000                532
+   2              1000                549
+   3              1000                550
+   4              1000                538
+   5              1000                554
+----------------------------------------------
+Average hint: 544.6
+Average possibility: 0.5446
+Variance: 67.83999999999999
+----------------------------------------------
+We need to generate 82820 numbers per experiment for a successful rate of 0.550007880466634
+hit 556 times of 1000 experiments
+hit 562 times of 1000 experiments
+hit 539 times of 1000 experiments
+hit 559 times of 1000 experiments
+hit 531 times of 1000 experiments
+----------------------------------------------
+  index            try            hit
+----------------------------------------------
+   1              1000                556
+   2              1000                562
+   3              1000                539
+   4              1000                559
+   5              1000                531
+----------------------------------------------
+Average hint: 549.4
+Average possibility: 0.5494
+Variance: 148.23999999999998
+----------------------------------------------
+We need to generate 83977 numbers per experiment for a successful rate of 0.5600049802277123
+hit 553 times of 1000 experiments
+hit 572 times of 1000 experiments
+hit 581 times of 1000 experiments
+hit 555 times of 1000 experiments
 hit 541 times of 1000 experiments
 ----------------------------------------------
   index            try            hit
 ----------------------------------------------
-   1              1000                545
-   2              1000                502
-   3              1000                533
-   4              1000                550
+   1              1000                553
+   2              1000                572
+   3              1000                581
+   4              1000                555
    5              1000                541
 ----------------------------------------------
-Average hint: 534.2
-Average possibility: 0.5342
-Variance: 290.15999999999997
-----------------------------------------------
-We need to generate 81672 numbers per experiment for a successful rate of 0.5400057850013255
-hit 522 times of 1000 experiments
-hit 550 times of 1000 experiments
-hit 564 times of 1000 experiments
-hit 553 times of 1000 experiments
-hit 547 times of 1000 experiments
-----------------------------------------------
-  index            try            hit
-----------------------------------------------
-   1              1000                522
-   2              1000                550
-   3              1000                564
-   4              1000                553
-   5              1000                547
-----------------------------------------------
-Average hint: 547.2
-Average possibility: 0.5472
-Variance: 191.75999999999993
-----------------------------------------------
-We need to generate 82820 numbers per experiment for a successful rate of 0.550007880466634
-hit 544 times of 1000 experiments
-hit 548 times of 1000 experiments
-hit 535 times of 1000 experiments
-hit 552 times of 1000 experiments
-hit 562 times of 1000 experiments
-----------------------------------------------
-  index            try            hit
-----------------------------------------------
-   1              1000                544
-   2              1000                548
-   3              1000                535
-   4              1000                552
-   5              1000                562
-----------------------------------------------
-Average hint: 548.2
-Average possibility: 0.5482
-Variance: 79.36
-----------------------------------------------
-We need to generate 83977 numbers per experiment for a successful rate of 0.5600049802277123
-hit 554 times of 1000 experiments
-hit 586 times of 1000 experiments
-hit 586 times of 1000 experiments
-hit 546 times of 1000 experiments
-hit 544 times of 1000 experiments
-----------------------------------------------
-  index            try            hit
-----------------------------------------------
-   1              1000                554
-   2              1000                586
-   3              1000                586
-   4              1000                546
-   5              1000                544
-----------------------------------------------
-Average hint: 563.2
-Average possibility: 0.5632
-Variance: 357.75999999999993
+Average hint: 560.4
+Average possibility: 0.5604
+Variance: 203.83999999999997
 ----------------------------------------------
 We need to generate 85145 numbers per experiment for a successful rate of 0.5700078280046617
-hit 581 times of 1000 experiments
-hit 587 times of 1000 experiments
-hit 565 times of 1000 experiments
-hit 583 times of 1000 experiments
-hit 555 times of 1000 experiments
+hit 577 times of 1000 experiments
+hit 545 times of 1000 experiments
+hit 582 times of 1000 experiments
+hit 558 times of 1000 experiments
+hit 586 times of 1000 experiments
 ----------------------------------------------
   index            try            hit
 ----------------------------------------------
-   1              1000                581
-   2              1000                587
-   3              1000                565
-   4              1000                583
-   5              1000                555
+   1              1000                577
+   2              1000                545
+   3              1000                582
+   4              1000                558
+   5              1000                586
 ----------------------------------------------
-Average hint: 574.2
-Average possibility: 0.5742
-Variance: 148.16
+Average hint: 569.6
+Average possibility: 0.5696
+Variance: 243.43999999999997
 ----------------------------------------------
 We need to generate 86323 numbers per experiment for a successful rate of 0.5800011462180945
-hit 565 times of 1000 experiments
-hit 586 times of 1000 experiments
-hit 570 times of 1000 experiments
-hit 586 times of 1000 experiments
-hit 592 times of 1000 experiments
+hit 564 times of 1000 experiments
+hit 581 times of 1000 experiments
+hit 585 times of 1000 experiments
+hit 617 times of 1000 experiments
+hit 556 times of 1000 experiments
 ----------------------------------------------
   index            try            hit
 ----------------------------------------------
-   1              1000                565
-   2              1000                586
-   3              1000                570
-   4              1000                586
-   5              1000                592
+   1              1000                564
+   2              1000                581
+   3              1000                585
+   4              1000                617
+   5              1000                556
 ----------------------------------------------
-Average hint: 579.8
-Average possibility: 0.5798
-Variance: 108.16
+Average hint: 580.6
+Average possibility: 0.5806
+Variance: 445.0400000000001
 ----------------------------------------------
 We need to generate 87514 numbers per experiment for a successful rate of 0.5900033508405125
-hit 603 times of 1000 experiments
-hit 586 times of 1000 experiments
-hit 596 times of 1000 experiments
-hit 584 times of 1000 experiments
-hit 585 times of 1000 experiments
+hit 601 times of 1000 experiments
+hit 630 times of 1000 experiments
+hit 588 times of 1000 experiments
+hit 588 times of 1000 experiments
+hit 604 times of 1000 experiments
 ----------------------------------------------
   index            try            hit
 ----------------------------------------------
-   1              1000                603
-   2              1000                586
-   3              1000                596
-   4              1000                584
-   5              1000                585
+   1              1000                601
+   2              1000                630
+   3              1000                588
+   4              1000                588
+   5              1000                604
 ----------------------------------------------
-Average hint: 590.8
-Average possibility: 0.5908
-Variance: 55.760000000000005
+Average hint: 602.2
+Average possibility: 0.6022000000000001
+Variance: 236.15999999999994
 ----------------------------------------------
 We need to generate 88718 numbers per experiment for a successful rate of 0.6000069376232112
-hit 599 times of 1000 experiments
-hit 584 times of 1000 experiments
-hit 577 times of 1000 experiments
-hit 610 times of 1000 experiments
-hit 590 times of 1000 experiments
+hit 570 times of 1000 experiments
+hit 593 times of 1000 experiments
+hit 594 times of 1000 experiments
+hit 607 times of 1000 experiments
+hit 639 times of 1000 experiments
 ----------------------------------------------
   index            try            hit
 ----------------------------------------------
-   1              1000                599
-   2              1000                584
-   3              1000                577
-   4              1000                610
-   5              1000                590
+   1              1000                570
+   2              1000                593
+   3              1000                594
+   4              1000                607
+   5              1000                639
 ----------------------------------------------
-Average hint: 592
-Average possibility: 0.592
-Variance: 133.2
+Average hint: 600.6
+Average possibility: 0.6006
+Variance: 510.64000000000004
 ----------------------------------------------
 We need to generate 89935 numbers per experiment for a successful rate of 0.6100043063587077
-hit 622 times of 1000 experiments
+hit 627 times of 1000 experiments
+hit 639 times of 1000 experiments
+hit 604 times of 1000 experiments
 hit 610 times of 1000 experiments
-hit 599 times of 1000 experiments
-hit 619 times of 1000 experiments
-hit 611 times of 1000 experiments
+hit 621 times of 1000 experiments
 ----------------------------------------------
   index            try            hit
 ----------------------------------------------
-   1              1000                622
-   2              1000                610
-   3              1000                599
-   4              1000                619
-   5              1000                611
+   1              1000                627
+   2              1000                639
+   3              1000                604
+   4              1000                610
+   5              1000                621
 ----------------------------------------------
-Average hint: 612.2
-Average possibility: 0.6122000000000001
-Variance: 64.56
+Average hint: 620.2
+Average possibility: 0.6202000000000001
+Variance: 153.35999999999999
 ----------------------------------------------
 We need to generate 91167 numbers per experiment for a successful rate of 0.6200039092346872
-hit 629 times of 1000 experiments
-hit 647 times of 1000 experiments
-hit 597 times of 1000 experiments
-hit 599 times of 1000 experiments
+hit 639 times of 1000 experiments
+hit 625 times of 1000 experiments
+hit 636 times of 1000 experiments
+hit 634 times of 1000 experiments
+hit 602 times of 1000 experiments
+----------------------------------------------
+  index            try            hit
+----------------------------------------------
+   1              1000                639
+   2              1000                625
+   3              1000                636
+   4              1000                634
+   5              1000                602
+----------------------------------------------
+Average hint: 627.2
+Average possibility: 0.6272000000000001
+Variance: 180.56
+----------------------------------------------
+We need to generate 92415 numbers per experiment for a successful rate of 0.6300053369329472
+hit 624 times of 1000 experiments
 hit 626 times of 1000 experiments
+hit 631 times of 1000 experiments
+hit 608 times of 1000 experiments
+hit 648 times of 1000 experiments
+----------------------------------------------
+  index            try            hit
+----------------------------------------------
+   1              1000                624
+   2              1000                626
+   3              1000                631
+   4              1000                608
+   5              1000                648
+----------------------------------------------
+Average hint: 627.4
+Average possibility: 0.6274
+Variance: 165.44
+----------------------------------------------
+We need to generate 93680 numbers per experiment for a successful rate of 0.6400076482936391
+hit 629 times of 1000 experiments
+hit 614 times of 1000 experiments
+hit 613 times of 1000 experiments
+hit 637 times of 1000 experiments
+hit 621 times of 1000 experiments
 ----------------------------------------------
   index            try            hit
 ----------------------------------------------
    1              1000                629
-   2              1000                647
-   3              1000                597
-   4              1000                599
-   5              1000                626
+   2              1000                614
+   3              1000                613
+   4              1000                637
+   5              1000                621
 ----------------------------------------------
-Average hint: 619.6
-Average possibility: 0.6196
-Variance: 363.04
-----------------------------------------------
-We need to generate 92415 numbers per experiment for a successful rate of 0.6300053369329472
-hit 620 times of 1000 experiments
-hit 649 times of 1000 experiments
-hit 615 times of 1000 experiments
-hit 651 times of 1000 experiments
-hit 633 times of 1000 experiments
-----------------------------------------------
-  index            try            hit
-----------------------------------------------
-   1              1000                620
-   2              1000                649
-   3              1000                615
-   4              1000                651
-   5              1000                633
-----------------------------------------------
-Average hint: 633.6
-Average possibility: 0.6336
-Variance: 214.24
-----------------------------------------------
-We need to generate 93680 numbers per experiment for a successful rate of 0.6400076482936391
-hit 643 times of 1000 experiments
-hit 636 times of 1000 experiments
-hit 607 times of 1000 experiments
-hit 629 times of 1000 experiments
-hit 620 times of 1000 experiments
-----------------------------------------------
-  index            try            hit
-----------------------------------------------
-   1              1000                643
-   2              1000                636
-   3              1000                607
-   4              1000                629
-   5              1000                620
-----------------------------------------------
-Average hint: 627
-Average possibility: 0.627
-Variance: 158
+Average hint: 622.8
+Average possibility: 0.6227999999999999
+Variance: 83.36
 ----------------------------------------------
 We need to generate 94962 numbers per experiment for a successful rate of 0.650001608967359
-hit 657 times of 1000 experiments
-hit 665 times of 1000 experiments
-hit 624 times of 1000 experiments
-hit 673 times of 1000 experiments
-hit 657 times of 1000 experiments
+hit 626 times of 1000 experiments
+hit 643 times of 1000 experiments
+hit 651 times of 1000 experiments
+hit 646 times of 1000 experiments
+hit 667 times of 1000 experiments
 ----------------------------------------------
   index            try            hit
 ----------------------------------------------
-   1              1000                657
-   2              1000                665
-   3              1000                624
-   4              1000                673
-   5              1000                657
+   1              1000                626
+   2              1000                643
+   3              1000                651
+   4              1000                646
+   5              1000                667
 ----------------------------------------------
-Average hint: 655.2
-Average possibility: 0.6552
-Variance: 278.55999999999995
+Average hint: 646.6
+Average possibility: 0.6466000000000001
+Variance: 174.64
 ----------------------------------------------
 We need to generate 96264 numbers per experiment for a successful rate of 0.6600007428673216
-hit 635 times of 1000 experiments
-hit 678 times of 1000 experiments
+hit 622 times of 1000 experiments
 hit 667 times of 1000 experiments
-hit 661 times of 1000 experiments
-hit 642 times of 1000 experiments
+hit 653 times of 1000 experiments
+hit 662 times of 1000 experiments
+hit 630 times of 1000 experiments
 ----------------------------------------------
   index            try            hit
 ----------------------------------------------
-   1              1000                635
-   2              1000                678
-   3              1000                667
-   4              1000                661
-   5              1000                642
+   1              1000                622
+   2              1000                667
+   3              1000                653
+   4              1000                662
+   5              1000                630
 ----------------------------------------------
-Average hint: 656.6
-Average possibility: 0.6566000000000001
-Variance: 253.04000000000005
+Average hint: 646.8
+Average possibility: 0.6467999999999999
+Variance: 314.9599999999999
 ----------------------------------------------
 We need to generate 97587 numbers per experiment for a successful rate of 0.6700020306193559
-hit 682 times of 1000 experiments
-hit 680 times of 1000 experiments
-hit 681 times of 1000 experiments
-hit 679 times of 1000 experiments
-hit 647 times of 1000 experiments
+hit 661 times of 1000 experiments
+hit 654 times of 1000 experiments
+hit 678 times of 1000 experiments
+hit 675 times of 1000 experiments
+hit 650 times of 1000 experiments
 ----------------------------------------------
   index            try            hit
 ----------------------------------------------
-   1              1000                682
-   2              1000                680
-   3              1000                681
-   4              1000                679
-   5              1000                647
+   1              1000                661
+   2              1000                654
+   3              1000                678
+   4              1000                675
+   5              1000                650
 ----------------------------------------------
-Average hint: 673.8
-Average possibility: 0.6738
-Variance: 180.56
+Average hint: 663.6
+Average possibility: 0.6636
+Variance: 124.23999999999998
 ----------------------------------------------
 We need to generate 98932 numbers per experiment for a successful rate of 0.680001815919604
-hit 672 times of 1000 experiments
-hit 666 times of 1000 experiments
-hit 690 times of 1000 experiments
-hit 673 times of 1000 experiments
-hit 690 times of 1000 experiments
+hit 700 times of 1000 experiments
+hit 678 times of 1000 experiments
+hit 707 times of 1000 experiments
+hit 681 times of 1000 experiments
+hit 653 times of 1000 experiments
 ----------------------------------------------
   index            try            hit
 ----------------------------------------------
-   1              1000                672
-   2              1000                666
-   3              1000                690
-   4              1000                673
-   5              1000                690
+   1              1000                700
+   2              1000                678
+   3              1000                707
+   4              1000                681
+   5              1000                653
 ----------------------------------------------
-Average hint: 678.2
-Average possibility: 0.6782
-Variance: 98.56
+Average hint: 683.8
+Average possibility: 0.6838
+Variance: 358.15999999999997
 ----------------------------------------------
 We need to generate 100301 numbers per experiment for a successful rate of 0.6900030319165316
-hit 711 times of 1000 experiments
-hit 729 times of 1000 experiments
-hit 684 times of 1000 experiments
-hit 671 times of 1000 experiments
-hit 685 times of 1000 experiments
+hit 709 times of 1000 experiments
+hit 693 times of 1000 experiments
+hit 672 times of 1000 experiments
+hit 695 times of 1000 experiments
+hit 701 times of 1000 experiments
 ----------------------------------------------
   index            try            hit
 ----------------------------------------------
-   1              1000                711
-   2              1000                729
-   3              1000                684
-   4              1000                671
-   5              1000                685
+   1              1000                709
+   2              1000                693
+   3              1000                672
+   4              1000                695
+   5              1000                701
 ----------------------------------------------
-Average hint: 696
-Average possibility: 0.696
-Variance: 440.8
+Average hint: 694
+Average possibility: 0.694
+Variance: 152
 ----------------------------------------------
 We need to generate 101695 numbers per experiment for a successful rate of 0.7000003041524313
-hit 694 times of 1000 experiments
-hit 681 times of 1000 experiments
-hit 711 times of 1000 experiments
-hit 709 times of 1000 experiments
-hit 692 times of 1000 experiments
+hit 701 times of 1000 experiments
+hit 684 times of 1000 experiments
+hit 699 times of 1000 experiments
+hit 728 times of 1000 experiments
+hit 696 times of 1000 experiments
 ----------------------------------------------
   index            try            hit
 ----------------------------------------------
-   1              1000                694
-   2              1000                681
-   3              1000                711
-   4              1000                709
-   5              1000                692
+   1              1000                701
+   2              1000                684
+   3              1000                699
+   4              1000                728
+   5              1000                696
 ----------------------------------------------
-Average hint: 697.4
-Average possibility: 0.6974
-Variance: 125.83999999999999
+Average hint: 701.6
+Average possibility: 0.7016
+Variance: 209.04000000000002
 ----------------------------------------------
 We need to generate 103117 numbers per experiment for a successful rate of 0.710001490711294
-hit 721 times of 1000 experiments
-hit 704 times of 1000 experiments
-hit 731 times of 1000 experiments
-hit 700 times of 1000 experiments
-hit 712 times of 1000 experiments
+hit 710 times of 1000 experiments
+hit 696 times of 1000 experiments
+hit 708 times of 1000 experiments
+hit 697 times of 1000 experiments
+hit 723 times of 1000 experiments
 ----------------------------------------------
   index            try            hit
 ----------------------------------------------
-   1              1000                721
-   2              1000                704
-   3              1000                731
-   4              1000                700
-   5              1000                712
+   1              1000                710
+   2              1000                696
+   3              1000                708
+   4              1000                697
+   5              1000                723
 ----------------------------------------------
-Average hint: 713.6
-Average possibility: 0.7136
-Variance: 127.43999999999998
+Average hint: 706.8
+Average possibility: 0.7068
+Variance: 97.36
 ----------------------------------------------
 We need to generate 104569 numbers per experiment for a successful rate of 0.7200057754653995
-hit 734 times of 1000 experiments
-hit 708 times of 1000 experiments
+hit 729 times of 1000 experiments
 hit 711 times of 1000 experiments
-hit 730 times of 1000 experiments
-hit 732 times of 1000 experiments
+hit 708 times of 1000 experiments
+hit 705 times of 1000 experiments
+hit 714 times of 1000 experiments
 ----------------------------------------------
   index            try            hit
 ----------------------------------------------
-   1              1000                734
-   2              1000                708
-   3              1000                711
-   4              1000                730
-   5              1000                732
+   1              1000                729
+   2              1000                711
+   3              1000                708
+   4              1000                705
+   5              1000                714
 ----------------------------------------------
-Average hint: 723
-Average possibility: 0.723
-Variance: 124
+Average hint: 713.4
+Average possibility: 0.7133999999999999
+Variance: 69.83999999999999
 ----------------------------------------------
 We need to generate 106052 numbers per experiment for a successful rate of 0.7300043298802616
-hit 730 times of 1000 experiments
-hit 742 times of 1000 experiments
-hit 729 times of 1000 experiments
+hit 731 times of 1000 experiments
+hit 735 times of 1000 experiments
+hit 733 times of 1000 experiments
+hit 749 times of 1000 experiments
 hit 736 times of 1000 experiments
-hit 744 times of 1000 experiments
 ----------------------------------------------
   index            try            hit
 ----------------------------------------------
-   1              1000                730
-   2              1000                742
-   3              1000                729
-   4              1000                736
-   5              1000                744
+   1              1000                731
+   2              1000                735
+   3              1000                733
+   4              1000                749
+   5              1000                736
 ----------------------------------------------
-Average hint: 736.2
-Average possibility: 0.7362000000000001
-Variance: 36.96
+Average hint: 736.8
+Average possibility: 0.7367999999999999
+Variance: 40.160000000000004
 ----------------------------------------------
 We need to generate 107569 numbers per experiment for a successful rate of 0.7400005874800617
-hit 748 times of 1000 experiments
+hit 742 times of 1000 experiments
+hit 735 times of 1000 experiments
+hit 716 times of 1000 experiments
+hit 742 times of 1000 experiments
 hit 752 times of 1000 experiments
-hit 748 times of 1000 experiments
-hit 715 times of 1000 experiments
-hit 732 times of 1000 experiments
 ----------------------------------------------
   index            try            hit
 ----------------------------------------------
-   1              1000                748
-   2              1000                752
-   3              1000                748
-   4              1000                715
-   5              1000                732
+   1              1000                742
+   2              1000                735
+   3              1000                716
+   4              1000                742
+   5              1000                752
 ----------------------------------------------
-Average hint: 739
-Average possibility: 0.739
-Variance: 191.2
+Average hint: 737.4
+Average possibility: 0.7373999999999999
+Variance: 143.83999999999997
 ----------------------------------------------
 We need to generate 109124 numbers per experiment for a successful rate of 0.7500023128429644
-hit 765 times of 1000 experiments
-hit 726 times of 1000 experiments
-hit 756 times of 1000 experiments
-hit 760 times of 1000 experiments
 hit 755 times of 1000 experiments
+hit 742 times of 1000 experiments
+hit 757 times of 1000 experiments
+hit 737 times of 1000 experiments
+hit 737 times of 1000 experiments
 ----------------------------------------------
   index            try            hit
 ----------------------------------------------
-   1              1000                765
-   2              1000                726
-   3              1000                756
-   4              1000                760
-   5              1000                755
+   1              1000                755
+   2              1000                742
+   3              1000                757
+   4              1000                737
+   5              1000                737
 ----------------------------------------------
-Average hint: 752.4
-Average possibility: 0.7524
-Variance: 186.64
+Average hint: 745.6
+Average possibility: 0.7456
+Variance: 75.84
 ----------------------------------------------
 We need to generate 110719 numbers per experiment for a successful rate of 0.7600021478135252
-hit 749 times of 1000 experiments
-hit 760 times of 1000 experiments
-hit 766 times of 1000 experiments
-hit 775 times of 1000 experiments
-hit 754 times of 1000 experiments
+hit 764 times of 1000 experiments
+hit 738 times of 1000 experiments
+hit 745 times of 1000 experiments
+hit 750 times of 1000 experiments
+hit 770 times of 1000 experiments
 ----------------------------------------------
   index            try            hit
 ----------------------------------------------
-   1              1000                749
-   2              1000                760
-   3              1000                766
-   4              1000                775
-   5              1000                754
+   1              1000                764
+   2              1000                738
+   3              1000                745
+   4              1000                750
+   5              1000                770
 ----------------------------------------------
-Average hint: 760.8
-Average possibility: 0.7607999999999999
-Variance: 82.96000000000001
+Average hint: 753.4
+Average possibility: 0.7534
+Variance: 141.44
 ----------------------------------------------
 We need to generate 112358 numbers per experiment for a successful rate of 0.770003270856072
-hit 756 times of 1000 experiments
-hit 771 times of 1000 experiments
-hit 791 times of 1000 experiments
-hit 756 times of 1000 experiments
-hit 766 times of 1000 experiments
+hit 787 times of 1000 experiments
+hit 780 times of 1000 experiments
+hit 761 times of 1000 experiments
+hit 783 times of 1000 experiments
+hit 768 times of 1000 experiments
 ----------------------------------------------
   index            try            hit
 ----------------------------------------------
-   1              1000                756
-   2              1000                771
-   3              1000                791
-   4              1000                756
-   5              1000                766
+   1              1000                787
+   2              1000                780
+   3              1000                761
+   4              1000                783
+   5              1000                768
 ----------------------------------------------
-Average hint: 768
-Average possibility: 0.768
-Variance: 166
+Average hint: 775.8
+Average possibility: 0.7757999999999999
+Variance: 94.96000000000001
 ----------------------------------------------
 We need to generate 114044 numbers per experiment for a successful rate of 0.7800001258794586
-hit 754 times of 1000 experiments
+hit 774 times of 1000 experiments
 hit 777 times of 1000 experiments
-hit 796 times of 1000 experiments
-hit 801 times of 1000 experiments
-hit 790 times of 1000 experiments
+hit 787 times of 1000 experiments
+hit 775 times of 1000 experiments
+hit 768 times of 1000 experiments
 ----------------------------------------------
   index            try            hit
 ----------------------------------------------
-   1              1000                754
+   1              1000                774
    2              1000                777
-   3              1000                796
-   4              1000                801
-   5              1000                790
+   3              1000                787
+   4              1000                775
+   5              1000                768
 ----------------------------------------------
-Average hint: 783.6
-Average possibility: 0.7836000000000001
-Variance: 283.44
+Average hint: 776.2
+Average possibility: 0.7762
+Variance: 38.160000000000004
 ----------------------------------------------
 We need to generate 115783 numbers per experiment for a successful rate of 0.7900018888434315
-hit 796 times of 1000 experiments
-hit 789 times of 1000 experiments
-hit 799 times of 1000 experiments
-hit 796 times of 1000 experiments
-hit 805 times of 1000 experiments
+hit 797 times of 1000 experiments
+hit 761 times of 1000 experiments
+hit 786 times of 1000 experiments
+hit 779 times of 1000 experiments
+hit 823 times of 1000 experiments
 ----------------------------------------------
   index            try            hit
 ----------------------------------------------
-   1              1000                796
-   2              1000                789
-   3              1000                799
-   4              1000                796
-   5              1000                805
+   1              1000                797
+   2              1000                761
+   3              1000                786
+   4              1000                779
+   5              1000                823
 ----------------------------------------------
-Average hint: 797
-Average possibility: 0.797
-Variance: 26.8
+Average hint: 789.2
+Average possibility: 0.7892
+Variance: 422.55999999999995
 ----------------------------------------------
 We need to generate 117579 numbers per experiment for a successful rate of 0.8000022953462524
-hit 788 times of 1000 experiments
-hit 798 times of 1000 experiments
-hit 792 times of 1000 experiments
-hit 815 times of 1000 experiments
-hit 826 times of 1000 experiments
+hit 795 times of 1000 experiments
+hit 830 times of 1000 experiments
+hit 810 times of 1000 experiments
+hit 799 times of 1000 experiments
+hit 797 times of 1000 experiments
 ----------------------------------------------
   index            try            hit
 ----------------------------------------------
-   1              1000                788
-   2              1000                798
-   3              1000                792
-   4              1000                815
-   5              1000                826
+   1              1000                795
+   2              1000                830
+   3              1000                810
+   4              1000                799
+   5              1000                797
 ----------------------------------------------
-Average hint: 803.8
-Average possibility: 0.8038
-Variance: 208.16
+Average hint: 806.2
+Average possibility: 0.8062
+Variance: 168.55999999999995
 ----------------------------------------------
 We need to generate 119438 numbers per experiment for a successful rate of 0.8100025454789836
-hit 811 times of 1000 experiments
-hit 825 times of 1000 experiments
-hit 816 times of 1000 experiments
+hit 809 times of 1000 experiments
+hit 807 times of 1000 experiments
 hit 797 times of 1000 experiments
-hit 820 times of 1000 experiments
+hit 807 times of 1000 experiments
+hit 815 times of 1000 experiments
 ----------------------------------------------
   index            try            hit
 ----------------------------------------------
-   1              1000                811
-   2              1000                825
-   3              1000                816
-   4              1000                797
-   5              1000                820
+   1              1000                809
+   2              1000                807
+   3              1000                797
+   4              1000                807
+   5              1000                815
 ----------------------------------------------
-Average hint: 813.8
-Average possibility: 0.8138
-Variance: 91.76
+Average hint: 807
+Average possibility: 0.807
+Variance: 33.6
 ----------------------------------------------
 We need to generate 121367 numbers per experiment for a successful rate of 0.8200042427313895
-hit 813 times of 1000 experiments
-hit 839 times of 1000 experiments
-hit 813 times of 1000 experiments
-hit 860 times of 1000 experiments
-hit 816 times of 1000 experiments
+hit 819 times of 1000 experiments
+hit 821 times of 1000 experiments
+hit 828 times of 1000 experiments
+hit 799 times of 1000 experiments
+hit 824 times of 1000 experiments
 ----------------------------------------------
   index            try            hit
 ----------------------------------------------
-   1              1000                813
-   2              1000                839
-   3              1000                813
-   4              1000                860
-   5              1000                816
+   1              1000                819
+   2              1000                821
+   3              1000                828
+   4              1000                799
+   5              1000                824
 ----------------------------------------------
-Average hint: 828.2
-Average possibility: 0.8282
-Variance: 347.76
+Average hint: 818.2
+Average possibility: 0.8182
+Variance: 101.36
 ----------------------------------------------
 We need to generate 123373 numbers per experiment for a successful rate of 0.8300034213164968
-hit 839 times of 1000 experiments
-hit 832 times of 1000 experiments
-hit 851 times of 1000 experiments
-hit 839 times of 1000 experiments
-hit 845 times of 1000 experiments
+hit 843 times of 1000 experiments
+hit 808 times of 1000 experiments
+hit 826 times of 1000 experiments
+hit 836 times of 1000 experiments
+hit 817 times of 1000 experiments
 ----------------------------------------------
   index            try            hit
 ----------------------------------------------
-   1              1000                839
-   2              1000                832
-   3              1000                851
-   4              1000                839
-   5              1000                845
+   1              1000                843
+   2              1000                808
+   3              1000                826
+   4              1000                836
+   5              1000                817
 ----------------------------------------------
-Average hint: 841.2
-Average possibility: 0.8412000000000001
-Variance: 40.96
+Average hint: 826
+Average possibility: 0.826
+Variance: 158.8
 ----------------------------------------------
 We need to generate 125466 numbers per experiment for a successful rate of 0.8400044890180662
-hit 845 times of 1000 experiments
-hit 848 times of 1000 experiments
-hit 844 times of 1000 experiments
-hit 833 times of 1000 experiments
 hit 846 times of 1000 experiments
+hit 846 times of 1000 experiments
+hit 834 times of 1000 experiments
+hit 831 times of 1000 experiments
+hit 817 times of 1000 experiments
 ----------------------------------------------
   index            try            hit
 ----------------------------------------------
-   1              1000                845
-   2              1000                848
-   3              1000                844
-   4              1000                833
-   5              1000                846
+   1              1000                846
+   2              1000                846
+   3              1000                834
+   4              1000                831
+   5              1000                817
 ----------------------------------------------
-Average hint: 843.2
-Average possibility: 0.8432000000000001
-Variance: 27.76
+Average hint: 834.8
+Average possibility: 0.8348
+Variance: 116.55999999999999
 ----------------------------------------------
 We need to generate 127656 numbers per experiment for a successful rate of 0.8500036123547143
-hit 867 times of 1000 experiments
-hit 863 times of 1000 experiments
-hit 863 times of 1000 experiments
-hit 850 times of 1000 experiments
+hit 865 times of 1000 experiments
+hit 851 times of 1000 experiments
+hit 855 times of 1000 experiments
+hit 837 times of 1000 experiments
+hit 855 times of 1000 experiments
+----------------------------------------------
+  index            try            hit
+----------------------------------------------
+   1              1000                865
+   2              1000                851
+   3              1000                855
+   4              1000                837
+   5              1000                855
+----------------------------------------------
+Average hint: 852.6
+Average possibility: 0.8526
+Variance: 82.23999999999998
+----------------------------------------------
+We need to generate 129956 numbers per experiment for a successful rate of 0.860001326667761
+hit 857 times of 1000 experiments
+hit 857 times of 1000 experiments
+hit 880 times of 1000 experiments
+hit 854 times of 1000 experiments
 hit 842 times of 1000 experiments
 ----------------------------------------------
   index            try            hit
 ----------------------------------------------
-   1              1000                867
-   2              1000                863
-   3              1000                863
-   4              1000                850
+   1              1000                857
+   2              1000                857
+   3              1000                880
+   4              1000                854
    5              1000                842
 ----------------------------------------------
-Average hint: 857
-Average possibility: 0.857
-Variance: 89.2
-----------------------------------------------
-We need to generate 129956 numbers per experiment for a successful rate of 0.860001326667761
-hit 859 times of 1000 experiments
-hit 865 times of 1000 experiments
-hit 853 times of 1000 experiments
-hit 858 times of 1000 experiments
-hit 878 times of 1000 experiments
-----------------------------------------------
-  index            try            hit
-----------------------------------------------
-   1              1000                859
-   2              1000                865
-   3              1000                853
-   4              1000                858
-   5              1000                878
-----------------------------------------------
-Average hint: 862.6
-Average possibility: 0.8626
-Variance: 73.84
+Average hint: 858
+Average possibility: 0.858
+Variance: 151.6
 ----------------------------------------------
 We need to generate 132383 numbers per experiment for a successful rate of 0.8700031428367165
-hit 867 times of 1000 experiments
 hit 876 times of 1000 experiments
-hit 863 times of 1000 experiments
-hit 877 times of 1000 experiments
-hit 859 times of 1000 experiments
+hit 882 times of 1000 experiments
+hit 857 times of 1000 experiments
+hit 853 times of 1000 experiments
+hit 842 times of 1000 experiments
 ----------------------------------------------
   index            try            hit
 ----------------------------------------------
-   1              1000                867
-   2              1000                876
-   3              1000                863
-   4              1000                877
-   5              1000                859
+   1              1000                876
+   2              1000                882
+   3              1000                857
+   4              1000                853
+   5              1000                842
 ----------------------------------------------
-Average hint: 868.4
-Average possibility: 0.8684
-Variance: 50.239999999999995
+Average hint: 862
+Average possibility: 0.862
+Variance: 220.4
 ----------------------------------------------
 We need to generate 134955 numbers per experiment for a successful rate of 0.8800035294968473
-hit 864 times of 1000 experiments
+hit 874 times of 1000 experiments
+hit 879 times of 1000 experiments
+hit 876 times of 1000 experiments
 hit 875 times of 1000 experiments
 hit 878 times of 1000 experiments
-hit 870 times of 1000 experiments
-hit 868 times of 1000 experiments
 ----------------------------------------------
   index            try            hit
 ----------------------------------------------
-   1              1000                864
-   2              1000                875
-   3              1000                878
-   4              1000                870
-   5              1000                868
+   1              1000                874
+   2              1000                879
+   3              1000                876
+   4              1000                875
+   5              1000                878
 ----------------------------------------------
-Average hint: 871
-Average possibility: 0.871
-Variance: 24.8
+Average hint: 876.4
+Average possibility: 0.8764
+Variance: 3.44
 ----------------------------------------------
 We need to generate 137696 numbers per experiment for a successful rate of 0.8900023256321038
-hit 905 times of 1000 experiments
-hit 887 times of 1000 experiments
-hit 872 times of 1000 experiments
-hit 880 times of 1000 experiments
-hit 901 times of 1000 experiments
+hit 888 times of 1000 experiments
+hit 892 times of 1000 experiments
+hit 897 times of 1000 experiments
+hit 899 times of 1000 experiments
+hit 896 times of 1000 experiments
 ----------------------------------------------
   index            try            hit
 ----------------------------------------------
-   1              1000                905
-   2              1000                887
-   3              1000                872
-   4              1000                880
-   5              1000                901
+   1              1000                888
+   2              1000                892
+   3              1000                897
+   4              1000                899
+   5              1000                896
 ----------------------------------------------
-Average hint: 889
-Average possibility: 0.889
-Variance: 154.8
+Average hint: 894.4
+Average possibility: 0.8944
+Variance: 15.440000000000001
 ----------------------------------------------
 We need to generate 140637 numbers per experiment for a successful rate of 0.9000007794874298
-hit 894 times of 1000 experiments
-hit 909 times of 1000 experiments
+hit 900 times of 1000 experiments
+hit 907 times of 1000 experiments
 hit 901 times of 1000 experiments
-hit 903 times of 1000 experiments
-hit 893 times of 1000 experiments
+hit 905 times of 1000 experiments
+hit 902 times of 1000 experiments
 ----------------------------------------------
   index            try            hit
 ----------------------------------------------
-   1              1000                894
-   2              1000                909
+   1              1000                900
+   2              1000                907
    3              1000                901
-   4              1000                903
-   5              1000                893
+   4              1000                905
+   5              1000                902
 ----------------------------------------------
-Average hint: 900
-Average possibility: 0.9
-Variance: 35.2
+Average hint: 903
+Average possibility: 0.903
+Variance: 6.8
 ----------------------------------------------
 We need to generate 143819 numbers per experiment for a successful rate of 0.9100019297215026
-hit 918 times of 1000 experiments
+hit 898 times of 1000 experiments
 hit 913 times of 1000 experiments
-hit 915 times of 1000 experiments
-hit 905 times of 1000 experiments
-hit 905 times of 1000 experiments
+hit 908 times of 1000 experiments
+hit 912 times of 1000 experiments
+hit 907 times of 1000 experiments
 ----------------------------------------------
   index            try            hit
 ----------------------------------------------
-   1              1000                918
+   1              1000                898
    2              1000                913
-   3              1000                915
-   4              1000                905
-   5              1000                905
+   3              1000                908
+   4              1000                912
+   5              1000                907
 ----------------------------------------------
-Average hint: 911.2
-Average possibility: 0.9112
-Variance: 28.160000000000004
+Average hint: 907.6
+Average possibility: 0.9076000000000001
+Variance: 28.24
 ----------------------------------------------
 We need to generate 147294 numbers per experiment for a successful rate of 0.9200006882710255
 hit 920 times of 1000 experiments
-hit 922 times of 1000 experiments
-hit 915 times of 1000 experiments
-hit 927 times of 1000 experiments
-hit 920 times of 1000 experiments
+hit 899 times of 1000 experiments
+hit 925 times of 1000 experiments
+hit 925 times of 1000 experiments
+hit 911 times of 1000 experiments
 ----------------------------------------------
   index            try            hit
 ----------------------------------------------
    1              1000                920
-   2              1000                922
-   3              1000                915
-   4              1000                927
-   5              1000                920
+   2              1000                899
+   3              1000                925
+   4              1000                925
+   5              1000                911
 ----------------------------------------------
-Average hint: 920.8
-Average possibility: 0.9208
-Variance: 14.960000000000003
+Average hint: 916
+Average possibility: 0.916
+Variance: 98.4
 ----------------------------------------------
 We need to generate 151138 numbers per experiment for a successful rate of 0.9300019912445365
+hit 936 times of 1000 experiments
+hit 927 times of 1000 experiments
+hit 936 times of 1000 experiments
+hit 942 times of 1000 experiments
+hit 932 times of 1000 experiments
+----------------------------------------------
+  index            try            hit
+----------------------------------------------
+   1              1000                936
+   2              1000                927
+   3              1000                936
+   4              1000                942
+   5              1000                932
+----------------------------------------------
+Average hint: 934.6
+Average possibility: 0.9346
+Variance: 24.64
+----------------------------------------------
+We need to generate 155456 numbers per experiment for a successful rate of 0.940000006547091
+hit 945 times of 1000 experiments
+hit 936 times of 1000 experiments
 hit 931 times of 1000 experiments
-hit 949 times of 1000 experiments
-hit 926 times of 1000 experiments
+hit 933 times of 1000 experiments
+hit 945 times of 1000 experiments
+----------------------------------------------
+  index            try            hit
+----------------------------------------------
+   1              1000                945
+   2              1000                936
+   3              1000                931
+   4              1000                933
+   5              1000                945
+----------------------------------------------
+Average hint: 938
+Average possibility: 0.938
+Variance: 35.2
+----------------------------------------------
+We need to generate 160415 numbers per experiment for a successful rate of 0.9500017970794716
+hit 931 times of 1000 experiments
+hit 938 times of 1000 experiments
+hit 954 times of 1000 experiments
+hit 952 times of 1000 experiments
+hit 935 times of 1000 experiments
+----------------------------------------------
+  index            try            hit
+----------------------------------------------
+   1              1000                931
+   2              1000                938
+   3              1000                954
+   4              1000                952
+   5              1000                935
+----------------------------------------------
+Average hint: 942
+Average possibility: 0.942
+Variance: 86
+----------------------------------------------
+We need to generate 166282 numbers per experiment for a successful rate of 0.9600013683298498
+hit 963 times of 1000 experiments
+hit 964 times of 1000 experiments
+hit 958 times of 1000 experiments
+hit 959 times of 1000 experiments
+hit 956 times of 1000 experiments
+----------------------------------------------
+  index            try            hit
+----------------------------------------------
+   1              1000                963
+   2              1000                964
+   3              1000                958
+   4              1000                959
+   5              1000                956
+----------------------------------------------
+Average hint: 960
+Average possibility: 0.96
+Variance: 9.2
+----------------------------------------------
+We need to generate 173553 numbers per experiment for a successful rate of 0.9700004194737913
+hit 975 times of 1000 experiments
+hit 975 times of 1000 experiments
+hit 971 times of 1000 experiments
+hit 980 times of 1000 experiments
+hit 963 times of 1000 experiments
+----------------------------------------------
+  index            try            hit
+----------------------------------------------
+   1              1000                975
+   2              1000                975
+   3              1000                971
+   4              1000                980
+   5              1000                963
+----------------------------------------------
+Average hint: 972.8
+Average possibility: 0.9728
+Variance: 32.160000000000004
+----------------------------------------------
+We need to generate 183313 numbers per experiment for a successful rate of 0.9800006883352428
+hit 981 times of 1000 experiments
+hit 984 times of 1000 experiments
+hit 983 times of 1000 experiments
+hit 977 times of 1000 experiments
+hit 979 times of 1000 experiments
+----------------------------------------------
+  index            try            hit
+----------------------------------------------
+   1              1000                981
+   2              1000                984
+   3              1000                983
+   4              1000                977
+   5              1000                979
+----------------------------------------------
+Average hint: 980.8
+Average possibility: 0.9808
+Variance: 6.5600000000000005
+----------------------------------------------
+We need to generate 198891 numbers per experiment for a successful rate of 0.9900003826822058
+hit 993 times of 1000 experiments
+hit 984 times of 1000 experiments
+hit 986 times of 1000 experiments
+hit 993 times of 1000 experiments
+hit 994 times of 1000 experiments
+----------------------------------------------
+  index            try            hit
+----------------------------------------------
+   1              1000                993
+   2              1000                984
+   3              1000                986
+   4              1000                993
+   5              1000                994
+----------------------------------------------
+Average hint: 990
+Average possibility: 0.99
+Variance: 17.2
+----------------------------------------------
