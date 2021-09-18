@@ -13,7 +13,7 @@ func birthday(n uint32, posibility float64) (uint32, error) {
 	for i := uint32(0); i < k; i++ {
 		tmp = tmp * float64(n-i) / float64(n)
 		if tmp <= posibility {
-			fmt.Println("We need to try", i, "times for a successful rate of", tmp)
+			fmt.Println("We need to generate", i, "numbers per experiment for a successful rate of", (float64(1.0) - tmp))
 			return i, nil
 		}
 	}
@@ -27,7 +27,7 @@ func birthday_uint32_max(posibility float64) (uint32, error) {
 
 func try_experiment(try uint32, numbers_per_experiement uint32) int {
 	counter := 0
-	r := rand.New(rand.NewSource(time.Now().Unix()))
+	r := rand.New(rand.NewSource(time.Now().UnixNano()))
 	for itr := uint32(0); itr < try; itr++ {
 		m := make(map[uint32]bool)
 		sign := false
@@ -50,11 +50,14 @@ func try_experiment(try uint32, numbers_per_experiement uint32) int {
 
 func main() {
 	var arr []int
-	var try uint32 = 5000
+	var try uint32 = 2000
 	var possibilities []float64
-	possibilities = append(possibilities, float64(0.25))
-	possibilities = append(possibilities, float64(0.50))
-	possibilities = append(possibilities, float64(0.75))
+	for i := float64(0.99); i > 0; i -= float64(0.01) {
+		possibilities = append(possibilities, i)
+	}
+	theoretical_ret := make(map[uint32]float64)
+	actual_ret := make(map[uint32]float64)
+
 	for _, v := range possibilities {
 		numbers_per_experiement, err := birthday_uint32_max(v)
 		if err != nil {
@@ -62,7 +65,9 @@ func main() {
 			return
 		}
 
-		for i := 0; i < 30; i++ {
+		theoretical_ret[numbers_per_experiement] = v
+
+		for i := 0; i < 5; i++ {
 			counter := try_experiment(try, numbers_per_experiement)
 
 			fmt.Println("hit", counter, "times of", try, "experiments")
@@ -91,6 +96,8 @@ func main() {
 		posibility := average / (float64(try))
 		fmt.Println("Average posibility:", posibility)
 
+		actual_ret[numbers_per_experiement] = posibility
+
 		// 计算方差
 		variance := float64(0)
 		for _, value := range arr {
@@ -99,5 +106,7 @@ func main() {
 		variance /= float64(len(arr))
 		fmt.Println("Variance:", variance)
 		fmt.Println("----------------------------------------------")
+
+		arr = []int{}
 	}
 }
