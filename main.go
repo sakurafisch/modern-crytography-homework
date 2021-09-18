@@ -4,7 +4,11 @@ import (
 	"errors"
 	"fmt"
 	"math/rand"
+	"os"
 	"time"
+
+	"github.com/go-echarts/go-echarts/v2/charts"
+	"github.com/go-echarts/go-echarts/v2/opts"
 )
 
 func birthday(n uint32, posibility float64) (uint32, error) {
@@ -43,6 +47,8 @@ func try_experiment(try uint32, numbers_per_experiement uint32) int {
 		if sign {
 			sign = false
 		}
+
+		// reset m
 		m = make(map[uint32]bool)
 	}
 	return counter
@@ -50,13 +56,13 @@ func try_experiment(try uint32, numbers_per_experiement uint32) int {
 
 func main() {
 	var arr []int
-	var try uint32 = 2000
+	var try uint32 = 1000
 	var possibilities []float64
 	for i := float64(0.99); i > 0; i -= float64(0.01) {
 		possibilities = append(possibilities, i)
 	}
-	theoretical_ret := make(map[uint32]float64)
-	actual_ret := make(map[uint32]float64)
+	var generated_numbers_of_experiments []uint32
+	var actual_possibilities_arr []float64
 
 	for _, v := range possibilities {
 		numbers_per_experiement, err := birthday_uint32_max(v)
@@ -65,7 +71,7 @@ func main() {
 			return
 		}
 
-		theoretical_ret[numbers_per_experiement] = v
+		generated_numbers_of_experiments = append(generated_numbers_of_experiments, numbers_per_experiement)
 
 		for i := 0; i < 5; i++ {
 			counter := try_experiment(try, numbers_per_experiement)
@@ -88,17 +94,18 @@ func main() {
 		}
 		fmt.Println("----------------------------------------------")
 
-		// 计算平均值
+		// compute average hint
 		average := float64(sum) / float64(len(arr))
 		fmt.Println("Average hint:", average)
 
-		// 计算平均概率
-		posibility := average / (float64(try))
-		fmt.Println("Average posibility:", posibility)
+		// compute average possibility
+		possibility := average / (float64(try))
+		fmt.Println("Average possibility:", possibility)
 
-		actual_ret[numbers_per_experiement] = posibility
+		// save actual average possibilitity
+		actual_possibilities_arr = append(actual_possibilities_arr, possibility)
 
-		// 计算方差
+		// compute variance
 		variance := float64(0)
 		for _, value := range arr {
 			variance += (float64(value) - average) * (float64(value) - average)
@@ -107,6 +114,47 @@ func main() {
 		fmt.Println("Variance:", variance)
 		fmt.Println("----------------------------------------------")
 
+		// reset arr
 		arr = []int{}
 	}
+
+	// Prepare data for drawing diagram
+	var generated_numbers_of_experiments_for_draw []opts.LineData
+	for _, v := range generated_numbers_of_experiments {
+		generated_numbers_of_experiments_for_draw = append(generated_numbers_of_experiments_for_draw, opts.LineData{Value: v})
+	}
+
+	var theoretical_possibilities_for_draw []opts.LineData
+	for i := len(possibilities) - 1; i > 0; i-- {
+		theoretical_possibilities_for_draw = append(theoretical_possibilities_for_draw, opts.LineData{Value: possibilities[i]})
+	}
+
+	var actual_possibilities_for_draw []opts.LineData
+	for _, v := range actual_possibilities_arr {
+		actual_possibilities_for_draw = append(actual_possibilities_for_draw, opts.LineData{Value: v})
+	}
+
+	// Draw the diagram
+	f, _ := os.Create("lines.html")
+
+	line_theoretical := charts.NewLine()
+	line_theoretical.SetGlobalOptions(charts.WithTitleOpts(opts.Title{
+		Title:    "Birthday paradox",
+		Subtitle: "Generated numbers by theoretical possibilities",
+	}))
+	line_theoretical.SetXAxis(theoretical_possibilities_for_draw)
+	line_theoretical.AddSeries("Theoretical value", generated_numbers_of_experiments_for_draw)
+	line_theoretical.SetSeriesOptions(charts.WithLineChartOpts(opts.LineChart{Smooth: true}))
+	line_theoretical.Render(f)
+
+	line_actual := charts.NewLine()
+	line_actual.SetGlobalOptions(charts.WithTitleOpts(opts.Title{
+		Title:    "Birthday paradox",
+		Subtitle: "Generated numbers by actual possibilities",
+	}))
+	line_actual.SetXAxis(actual_possibilities_for_draw)
+	line_actual.AddSeries("Actual hint", generated_numbers_of_experiments_for_draw)
+	line_actual.SetSeriesOptions(charts.WithLineChartOpts(opts.LineChart{Smooth: true}))
+	line_actual.Render(f)
+
 }
